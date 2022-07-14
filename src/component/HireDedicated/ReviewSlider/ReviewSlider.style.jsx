@@ -7,17 +7,23 @@ export const WhyTechWrapper = styled.section`
   }
 `;
 export const BlueWrapper = styled.div`
-  .swiper-slide {
-    padding: 80px 220px 150px;
+  .carousel-root {
+    padding: 80px 220px;
     background: linear-gradient(45deg, #0b2757 0, #01317b 42%, #01317b 100%);
+    .carousel-slider {
+      display: flex;
+      flex-direction: column-reverse;
+    }
   }
-  .swiper-pagination {
+  .control-dots {
     display: flex;
     column-gap: 12px;
     margin-top: 0px;
-    padding: 0px 220px;
+    /* padding: 0px 220px; */
+    margin-top: 60px;
     bottom: 70px;
-    .swiper-pagination-bullet {
+    position: static;
+    .dot {
       width: 18px;
       height: 18px;
       display: inline-block;
@@ -26,8 +32,9 @@ export const BlueWrapper = styled.div`
       transition: var(--trans_a3);
       margin: 0;
       opacity: 1;
+      box-shadow: none;
     }
-    .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    .dot.selected {
       background-color: rgb(var(--blue));
     }
   }
@@ -45,6 +52,7 @@ export const Left = styled.div`
   margin-right: 0;
   border-right: 1px solid rgba(var(--white), 0.32);
   padding-right: 70px;
+  text-align: left;
 `;
 
 export const SliderHeading = styled.h5`

@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import { Container, Row, Col } from "react-bootstrap";
 
 import LinkCustom from "../../Button/LinkCustom";
@@ -53,10 +54,13 @@ const WhyTech = ({ whyTechData }) => {
               </Col>
               <Col>
                 <ImgWrapper>
-                  <img
+                  <Image
                     src={whyTechData.whyTechs.imgSrc}
                     alt={whyTechData.whyTechs.imgAlt}
                     className="img-fluid"
+                    height={462}
+                    width={565}
+                    priority={false}
                   />
                   <List className="whiteBg d-flex flex-column justify-content-center">
                     {whyTechData.whyTechs.imgListTexts.map(
@@ -76,9 +80,14 @@ const WhyTech = ({ whyTechData }) => {
                   </List>
                   <LogoWrapper>
                     <div className="logo d-flex justify-content-center align-items-center">
-                      <img
+                      <Image
                         src={whyTechData.whyTechs.imgLogo}
                         alt={whyTechData.whyTechs.imgLogoAlt}
+                        className="img-fluid"
+                        width={89}
+                        height={95}
+                        // layout="fill"
+                        layout="responsive"
                       />
                     </div>
                     <CircleWrapper>
@@ -90,16 +99,18 @@ const WhyTech = ({ whyTechData }) => {
                 </ImgWrapper>
               </Col>
             </Row>
-            <BottomListWrapper>
+            {/* <BottomListWrapper>
               <Row>
                 {whyTechData.whyTechs.WhyTechLists.map((WhyTechList, index) => {
                   return (
                     <Col xxl={3} className="d-flex" key={WhyTechList.icon}>
                       <div className="box whiteBg black">
                         <span>
-                          <img
-                            src={WhyTechList.icon}
-                            alt={WhyTechList.title}
+                          <object
+                            data={WhyTechList.icon}
+                            className="w-100"
+                            width={65}
+                            height={70}
                           />
                         </span>
                         <h3
@@ -119,7 +130,7 @@ const WhyTech = ({ whyTechData }) => {
                   );
                 })}
               </Row>
-            </BottomListWrapper>
+            </BottomListWrapper> */}
           </GreyWrapper>
         </Container>
       </WhyTechWrapper>

@@ -6,21 +6,23 @@ export const HireAngularData = {
     "Hire angular developers to have seamless visualization across all devices. Our angular developers build high-performance and scalable apps which enhance your productivity by 70%.",
   btnLink: "#contact-form-top",
   btnText: "Hire Angular Developer",
-  btnClass: "",
-  imgSrc: "/images/HireDedicated/hire-angular-developers.webp",
+  imgSrc: "/images/HireDedicated/hire-angular-developers.png",
   imgAlt: "Hire Angular Developers",
   clutchReviewText:
     "They had so far exceeded every of my expectations and i believe they will continue to do so.",
   listMenus: [
     {
+      id: 1,
       title: "Cross Platform",
       img: "/images/HireDedicated/icons/cross-platform.svg",
     },
     {
+      id: 2,
       title: "Speed & Performance",
       img: "/images/HireDedicated/icons/speed-&-performance.svg",
     },
     {
+      id: 3,
       title: "User friendly",
       img: "/images/HireDedicated/icons/user-friendly.svg",
     },
@@ -31,13 +33,15 @@ export const HireAngularData = {
       "Hire angular developers to build robust, secured, dynamic web and mobile applications saving up to 63% of your development cost. ",
     expertLists: [
       {
-        expertImage: "/images/HireDedicated/icons/custom-angular-development.svg",
+        expertImage:
+          "/images/HireDedicated/icons/custom-angular-development.svg",
         expertTitle: "Custom Angular <br/>Development",
         expertSubTitle:
           "Hire dedicated angular developers who are expert in creating clean and interactive UI/UX to build credibility and flawless user-experience across all devices. We create real time apps like Chat Apps and Insant Messengers with AngularFire or Socket.",
       },
       {
-        expertImage: "/images/HireDedicated/icons/enterprise-angular-web-apps.svg",
+        expertImage:
+          "/images/HireDedicated/icons/enterprise-angular-web-apps.svg",
         expertTitle: "Enterprise Angular <br/>Web Apps",
         expertSubTitle:
           "Our angularjs developers build large-scale web applications by providing end-to-end services right from consulting, development, migration, maintenance to upgradation. We offer advanced Angular API services as per specific business needs.",
@@ -49,7 +53,8 @@ export const HireAngularData = {
           "Our angular developers and consultants can help you in organizing your Angular project structure using TypeScripts, Angular CLI, managing environment-specific settings and many more.",
       },
       {
-        expertImage: "/images/HireDedicated/icons/updated-with-technology-trends.svg",
+        expertImage:
+          "/images/HireDedicated/icons/updated-with-technology-trends.svg",
         expertTitle: "Updated with<br/>Technology Trends",
         expertSubTitle:
           "Angular developers use <b>SSR</b> to make your app <b>SEO</b> friendly and help you to be visible in Google's eye.",
@@ -61,7 +66,6 @@ export const HireAngularData = {
     subTitle: "Why Tech Managers opt",
     paragraph:
       "Our angular developers are proficient in building highly scalable apps to meet your business needs with evolving market around. ",
-    btnClass: "",
     imgSrc: "/images/HireDedicated/laptop.png",
     imgAlt: "Laptop",
     imgLogo: "/images/HireDedicated/angular-img.png",
@@ -179,22 +183,24 @@ export const HireReactData = {
   paragraph:
     "Hire ReactJS developers trusted by 97% of CTOs. eLuminous Technologies offer flexible hiring models to help you in web and mobile.",
   btnLink: "#contact-form-top",
-  btnText: "Hire ReactJS Developer",  
-  btnClass: "",
-  imgSrc: "/images/HireDedicated/hire-react-developers.webp",
+  btnText: "Hire ReactJS Developer",
+  imgSrc: "/images/HireDedicated/hire-react-developers.png",
   imgAlt: "Hire ReactJS Developers",
   clutchReviewText:
-  "They were clear in what they needed to do at each stage, and even gave suggestions on how to improve the app.",
+    "They were clear in what they needed to do at each stage, and even gave suggestions on how to improve the app.",
   listMenus: [
     {
+      id: 1,
       title: "Cross Platform",
       img: "/images/HireDedicated/icons/cross-platform.svg",
     },
     {
+      id: 2,
       title: "Speed & Performance",
       img: "/images/HireDedicated/icons/speed-&-performance.svg",
     },
     {
+      id: 3,
       title: "User friendly",
       img: "/images/HireDedicated/icons/user-friendly.svg",
     },
@@ -205,25 +211,29 @@ export const HireReactData = {
       "Get access to tech minds rated 4.8 on Clutch and GoodFirms with competence in enterprise app development.",
     expertLists: [
       {
-        expertImage: "/images/HireDedicated/icons/custom-angular-development.svg",
+        expertImage:
+          "/images/HireDedicated/icons/custom-angular-development.svg",
         expertTitle: "Custom React<br />Development",
         expertSubTitle:
           "Our React developers will help in creating custom websites acknowledged for scalability, security, and features. We develop applications for several industries like healthcare, e-commerce, retail, education and manufacturing, etc.",
       },
       {
-        expertImage: "/images/HireDedicated/icons/reactjs-ui-ux-development.svg",
+        expertImage:
+          "/images/HireDedicated/icons/reactjs-ui-ux-development.svg",
         expertTitle: "ReactJS <br />UI/UX Development",
         expertSubTitle:
           "ReactJS UI/UX Developers offer top-notch web and mobile applications services. We help you to compete with tailor-made ReactJS architecture up to date with optimum speed.",
       },
       {
-        expertImage: "/images/HireDedicated/icons/reactjs-integration-and-migration-services.svg",
+        expertImage:
+          "/images/HireDedicated/icons/reactjs-integration-and-migration-services.svg",
         expertTitle: "ReactJS Integration<br />and Migration Services",
         expertSubTitle:
           "Whether it is about migration of apps to ReactJS or integrating exisiting systems and technologies with ReactJS, our expert ReactJS team is ready to get it done for you.",
       },
       {
-        expertImage: "/images/HireDedicated/icons/updated-with-technology-trends.svg",
+        expertImage:
+          "/images/HireDedicated/icons/updated-with-technology-trends.svg",
         expertTitle: "Updated with<br />Technology Trends",
         expertSubTitle:
           "Our React developers use new features like <b>React</b> <b>hooks,</b> <b>TypeScripts</b> and explore pitfalls, patterns.",
@@ -235,7 +245,6 @@ export const HireReactData = {
     subTitle: "Why Tech Managers opt",
     paragraph:
       "Access to the experienced React developers having proven track record of 260+ projects",
-    btnClass: "",
     imgSrc: "/images/HireDedicated/laptop.png",
     imgAlt: "Laptop",
     imgLogo: "/images/HireDedicated/react-img.png",
@@ -316,19 +325,19 @@ export const HireReactData = {
       {
         id: "2",
         title: "Why ReactJS?",
-        paragraph: "<p> As of last year, it was the second most used web development framework globally, <a target='_blank' href='https://trends.builtwith.com/javascript/React'>with 35.9% usage</a>.<a target='_blank' href='https://www.statista.com/statistics/1124699/worldwide-developer-survey-most-used-frameworks-web/'>Over 7.4 million</a> live websites currently use the library. BuiltWith It has over 170,000 stars on GitHub. Get more insights on our recent blog <a target='_blank' href='https://eluminoustechnologies.com/blog/hire-react-developer/'>here.</a> </p>",
+        paragraph:
+          "<p> As of last year, it was the second most used web development framework globally, <a target='_blank' href='https://trends.builtwith.com/javascript/React'>with 35.9% usage</a>.<a target='_blank' href='https://www.statista.com/statistics/1124699/worldwide-developer-survey-most-used-frameworks-web/'>Over 7.4 million</a> live websites currently use the library. BuiltWith It has over 170,000 stars on GitHub. Get more insights on our recent blog <a target='_blank' href='https://eluminoustechnologies.com/blog/hire-react-developer/'>here.</a> </p>",
         imgSrc: "images/react-gragh.webp",
         ulLists: [
           {
-            list:"",
+            list: "",
           },
-          
         ],
       },
       {
         id: "3",
         title: "What are the benefits of ReactJS?",
-        paragraph:"",
+        paragraph: "",
         ulLists: [
           {
             list: "Large community support",
@@ -346,7 +355,8 @@ export const HireReactData = {
             list: "JavaScript library",
           },
           {
-            list: "Suitable for modern web development and native rendered apps for iOS and Android",
+            list:
+              "Suitable for modern web development and native rendered apps for iOS and Android",
           },
         ],
       },
@@ -407,28 +417,34 @@ export const HireCaseStudiesData = {
       title: "Partnering Front-end Development",
       image: "/images/CaseStudies/front-end-development.webp",
       pdfLink: "/images/CaseStudies/frontend-development.pdf",
-      paragraph: "eLuminous reduced the cost of development by 45% and reduced time-to-market by 20% for a European Digital Marketing Agency as part of their IT process stanardization.",
+      paragraph:
+        "eLuminous reduced the cost of development by 45% and reduced time-to-market by 20% for a European Digital Marketing Agency as part of their IT process stanardization.",
     },
     {
       id: "2",
       image: "/images/CaseStudies/FDA-compliant-eCommerce.webp",
       title: "Developed FDA compliant <br />eCommerce platform in 90 days",
-      pdfLink: "/images/CaseStudies/Getting-FDA-compliant-eCommerce-ready-within-90days.pdf",
-      paragraph: "UK based Client baby care brand wanted to develop new markets for their expansion. They wanted to develop the abilities to sell through new geographies i.e. Europe and USA.",
+      pdfLink:
+        "/images/CaseStudies/Getting-FDA-compliant-eCommerce-ready-within-90days.pdf",
+      paragraph:
+        "UK based Client baby care brand wanted to develop new markets for their expansion. They wanted to develop the abilities to sell through new geographies i.e. Europe and USA.",
     },
     {
       id: "3",
       image: "/images/CaseStudies/ui-using-react-js.webp",
       title: "Food delivery app with user friendly UI using ReactJs",
-      pdfLink: "/images/CaseStudies/Food-delivery-app-with-user-friendly-UI-using-React-js.pdf",
-      paragraph: "CLE course certificates are essentials for the Lawyers as a mandatory legal compliance. Hence, the key requirement was to generate course completion certificates based on the User's time zone.",
+      pdfLink:
+        "/images/CaseStudies/Food-delivery-app-with-user-friendly-UI-using-React-js.pdf",
+      paragraph:
+        "CLE course certificates are essentials for the Lawyers as a mandatory legal compliance. Hence, the key requirement was to generate course completion certificates based on the User's time zone.",
     },
     {
       id: "4",
       image: "/images/CaseStudies/eLearning-management-solution.webp",
       title: "eLearning Management Solution for CLE",
       pdfLink: "/images/CaseStudies/eLearning-managemen-t-solution-for-CLE.pdf",
-      paragraph: "CLE course certificates are essentials for the Lawyers as a mandatory legal compliance. Hence, the key requirement was to generate course completion certificates based on the User's time zone.",
+      paragraph:
+        "CLE course certificates are essentials for the Lawyers as a mandatory legal compliance. Hence, the key requirement was to generate course completion certificates based on the User's time zone.",
     },
   ],
 };

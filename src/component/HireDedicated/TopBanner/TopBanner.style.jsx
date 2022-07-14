@@ -53,10 +53,17 @@ export const ImgWrapper = styled.div`
   margin-left: auto;
   transform: translate(0, 0);
   padding: 0 90px 0 0;
+  position: relative;
+  .fPMgBu {
+    left: auto;
+    right: 20%;
+    top: 0;
+  }
   @media (max-width: ${({ theme }) => theme.media.deskstop1440}) {
     padding: 0 90px 0 0;
   }
 `;
+
 export const ClutchReview = styled.div`
   border-radius: 10px;
   background-color: #fff;
@@ -64,8 +71,8 @@ export const ClutchReview = styled.div`
   width: 291px;
   height: 156px;
   position: absolute;
-  right: 15px;
-  top: 135px;
+  right: -5px;
+  top: 200px;
   padding: 15px 15px;
   @media (max-width: ${({ theme }) => theme.media.deskstop1440}) {
     transform: scale(0.85) translate(30px, -40px);

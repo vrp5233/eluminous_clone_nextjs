@@ -2,6 +2,9 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
+  compiler: {
+    styledComponents: true,
+  },
   images: {
     domains: [
       "www.itfirms.co",
@@ -11,6 +14,16 @@ const nextConfig = {
       "vrpprojects.infinityfreeapp.com",
     ],
   },
+  // plugins: [
+  //   [
+  //     "styled-components",
+  //     {
+  //       ssr: true,
+  //       displayName: true,
+  //       preprocess: false,
+  //     },
+  //   ],
+  // ],
 };
 
 module.exports = nextConfig;

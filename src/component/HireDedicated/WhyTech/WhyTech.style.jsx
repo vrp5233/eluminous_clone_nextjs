@@ -1,7 +1,6 @@
 import styled, { keyframes } from "styled-components";
 
-export const WhyTechWrapper = styled.section`
-`;
+export const WhyTechWrapper = styled.section``;
 export const GreyWrapper = styled.div`
   background-color: rgb(var(--grey));
   padding: 105px 150px 90px;
@@ -90,6 +89,9 @@ export const LogoWrapper = styled.div`
     width: 120px;
     height: 120px;
     border-radius: 50%;
+    padding: 15px;
+    position: relative;
+    display: inline-block !important;
   }
 `;
 export const CircleWrapper = styled.div`
@@ -109,6 +111,7 @@ export const CircleWrapper = styled.div`
     left: 0;
     position: absolute;
     animation: ${CircleWave} 3s infinite cubic-bezier(0.36, 0.11, 0.89, 0.32);
+    box-shadow: 10px 10px 10px rgb(0 0 0 / 10%);
     &:nth-child(1) {
       animation-delay: 0s;
     }

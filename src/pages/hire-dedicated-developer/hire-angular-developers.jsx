@@ -8,14 +8,14 @@ import {
 import TopBanner from "../../component/HireDedicated/TopBanner/TopBanner";
 import Expertise from "../../component/HireDedicated/Expertise/Expertise";
 import WhyTech from "../../component/HireDedicated/WhyTech/WhyTech";
-// import ReviewSlider from "../../component/HireDedicated/ReviewSlider/ReviewSlider";
-import CaseStudies from "../../component/CaseStudies/CaseStudies";
-import Faq from "../../component/HireDedicated/Faq/Faq";
-import Contact from "../../component/HireDedicated/Contact/Contact";
+import ReviewSlider from "../../component/HireDedicated/ReviewSlider/ReviewSlider";
+// import CaseStudies from "../../component/CaseStudies/CaseStudies";
+// import Faq from "../../component/HireDedicated/Faq/Faq";
+// import Contact from "../../component/HireDedicated/Contact/Contact";
 const HireDedicatedAngular = () => {
   return (
     <>
-      <Head>
+      {/* <Head>
         <title>Hire Angular Developers | Hire AngularJS Developers</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta
@@ -31,10 +31,14 @@ const HireDedicatedAngular = () => {
       <TopBanner allData={HireAngularData} />
       <Expertise expertiseData={HireAngularData} />
       <WhyTech whyTechData={HireAngularData} />
-      {/* <ReviewSlider ReviewSliderData={HireReviewData} /> */}
+      <ReviewSlider ReviewSliderData={HireReviewData} />
       <CaseStudies CaseStudyData={HireCaseStudiesData} />
       <Faq faqsData={HireAngularData} />
-      <Contact />
+      <Contact /> */}
+      <TopBanner allData={HireAngularData} />
+      <Expertise expertiseData={HireAngularData} />
+      <WhyTech whyTechData={HireAngularData} />
+      <ReviewSlider ReviewSliderData={HireReviewData} />
     </>
   );
 };

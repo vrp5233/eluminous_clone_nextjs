@@ -32,11 +32,11 @@ const Expertise = ({ expertiseData }) => {
                 >
                   <ExpertiseBox>
                     <span>
-                      <img
+                    <object data={expertList.expertImage} type="image/svg+xml">{expertList.title}</object>
+                      {/* <img
                         src={expertList.expertImage}
-                        // src={expertList.expertImage}
                         alt="Title"
-                      />
+                      /> */}
                     </span>
                     <ExpertiseBoxTitle
                       className="title"

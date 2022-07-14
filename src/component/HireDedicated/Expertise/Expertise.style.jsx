@@ -20,10 +20,12 @@ export const ExpertiseWrapper = styled.section`
 // `;
 
 export const ExpertiseBox = styled.div`
+  margin-bottom: 60px;
   span {
     margin-bottom: 20px;
     display: inline-block;
-    img {
+    img,
+    object {
       max-width: 80px;
       width: 100%;
     }
@@ -42,4 +44,7 @@ export const ExpertiseBoxPara = styled.p`
   font-weight: 400;
   line-height: 34px;
   max-width: 370px;
+  :last-child {
+    margin-bottom: 0;
+  }
 `;

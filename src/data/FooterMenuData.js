@@ -2,6 +2,10 @@ export const footerServicesMenus = {
   title: "Services",
   menus: [
     {
+      title: "Hire Dedicated Developer",
+      path: "/hire-dedicated-developer",
+    },
+    {
       title: "Web Development",
       path: "/web-application-development",
     },
