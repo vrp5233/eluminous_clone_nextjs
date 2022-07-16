@@ -174,61 +174,75 @@ function Footer({ footerMenuDatas, xl, lg, md, sm }) {
                   <CompanyMail>
                     <Mail>
                       <b>Web Application Development</b>
-                      <a
-                        href="mailto:sales@eluminoustechnologies.com"
-                        id="mail-contact"
-                        data-ccw="mail-contact"
-                      >
-                        <MdEmail />
-                        sales@eluminoustechnologies.com
-                      </a>
-                      <a
-                        href="skype:eluminoustechnologies?chat"
-                        id="skype-contact"
-                        data-ccw="skype-contact"
-                      >
-                        <AiFillSkype />
-                        eluminoustechnologies
-                      </a>
+                      <ul>
+                        <li>
+                          <a
+                            href="mailto:sales@eluminoustechnologies.com"
+                            id="mail-contact"
+                            data-ccw="mail-contact"
+                          >
+                            <MdEmail />
+                            sales@eluminoustechnologies.com
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="skype:eluminoustechnologies?chat"
+                            id="skype-contact"
+                            data-ccw="skype-contact"
+                          >
+                            <AiFillSkype />
+                            eluminoustechnologies
+                          </a>
+                        </li>
+                      </ul>
                     </Mail>
                     <DigitalVirtual>
                       <Mail>
                         <b>Digital Marketing</b>
-                        <a
-                          href="mailto:sam@eluminoustechnologies.com"
-                          id="mail-contact"
-                          data-ccw="mail-contact"
-                        >
-                          <MdEmail />
-                          sam@eluminoustechnologies.com
-                        </a>
-                        <a
-                          href="skype:el_sysadmin?chat"
-                          id="skype-contact"
-                          data-ccw="skype-contact"
-                        >
-                          <AiFillSkype />
-                          DM_BDM
-                        </a>
+                        <li>
+                          <a
+                            href="mailto:sam@eluminoustechnologies.com"
+                            id="mail-contact"
+                            data-ccw="mail-contact"
+                          >
+                            <MdEmail />
+                            sam@eluminoustechnologies.com
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="skype:el_sysadmin?chat"
+                            id="skype-contact"
+                            data-ccw="skype-contact"
+                          >
+                            <AiFillSkype />
+                            DM_BDM
+                          </a>
+                        </li>
                       </Mail>
                       <Mail>
                         <b>Virtual Assistance</b>
-                        <a
-                          href="mailto:sales@eluminousva.com"
-                          id="mail-contact"
-                          data-ccw="mail-contact"
-                        >
-                          <MdEmail />
-                          sales@eluminousva.com{" "}
-                        </a>
-                        <a
-                          href="skype:cid.d0af7eb429b962d6?chat"
-                          id="skype-contact"
-                          data-ccw="skype-contact"
-                        >
-                          <AiFillSkype />
-                          VA_BDM
-                        </a>
+                        <li>
+                          <a
+                            href="mailto:sales@eluminousva.com"
+                            id="mail-contact"
+                            data-ccw="mail-contact"
+                          >
+                            <MdEmail />
+                            sales@eluminousva.com{" "}
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="skype:cid.d0af7eb429b962d6?chat"
+                            id="skype-contact"
+                            data-ccw="skype-contact"
+                          >
+                            <AiFillSkype />
+                            VA_BDM
+                          </a>
+                        </li>
                       </Mail>
                     </DigitalVirtual>
                   </CompanyMail>

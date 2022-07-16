@@ -4,7 +4,7 @@ import { Container, Row, Col } from "react-bootstrap";
 
 import HireForm from "./Form/HireForm";
 import { WhyTechWrapper, ImgBox, TextBox } from "./Contact.style";
-const Contact = ({ whyTechData }) => {
+const Contact = () => {
   // const filePath = window.location.origin + "/images/HireDedicated/";
   // const fileIconsPath = window.location.origin + "/images/HireDedicated/icons/";
   return (

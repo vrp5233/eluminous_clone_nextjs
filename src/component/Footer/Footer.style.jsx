@@ -54,7 +54,8 @@ export const FooterLogoWrapper = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    a,span {
+    a,
+    span {
       display: inline-block;
       width: 100%;
       /* height: 100%; */
@@ -147,19 +148,23 @@ export const Mail = styled.div`
     text-transform: uppercase;
     font-weight: 700;
   }
-  a {
+  li {
+    display: block;
     width: 100%;
-    align-items: center;
-    font-size: 12px;
-    flex-wrap: wrap;
-    line-height: 1.2;
-    margin-bottom: 5px;
-    svg {
-      width: 23px;
-      color: grey;
-      font-size: 18px !important;
-      margin-right: 8px;
-      text-align: center;
+    a {
+      display: inline-block;
+      align-items: center;
+      font-size: 12px;
+      flex-wrap: wrap;
+      line-height: 1.2;
+      margin-bottom: 5px;
+      svg {
+        width: 23px;
+        color: grey;
+        font-size: 18px !important;
+        margin-right: 8px;
+        text-align: center;
+      }
     }
   }
 `;

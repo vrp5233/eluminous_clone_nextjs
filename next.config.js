@@ -2,9 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  compiler: {
-    styledComponents: true,
-  },
+  // compiler: { styledComponents: true | {displayName: } },
   images: {
     domains: [
       "www.itfirms.co",

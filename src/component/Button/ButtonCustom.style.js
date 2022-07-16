@@ -12,6 +12,7 @@ export const BtnWrap = styled.div`
     color: rgba(var(--white));
     background-color: rgba(var(--blackTurmeric));
     padding: 0;
+    min-width: 280px;
     min-height: 60px;
     font-size: 20px;
     font-weight: 600;

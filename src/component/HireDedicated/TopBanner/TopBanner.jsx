@@ -33,10 +33,10 @@ const TopBanner = ({ allData }) => {
                   {allData.titleSpan}
                 </span>
               </TitleWrap>
-              <SmallTitleWrap>{allData.smallTitle}</SmallTitleWrap>
+              <SmallTitleWrap className={allData.smallTitle ? "d-none" : ""}>{allData.smallTitle}</SmallTitleWrap>
               <ParagraphWrap>{allData.paragraph}</ParagraphWrap>
               <LinkCustom
-                BtnTransparent={true}
+                BtnTransparent={false}
                 linkUrl={allData.btnLink}
                 titleText={allData.btnText}
                 colorChange=""

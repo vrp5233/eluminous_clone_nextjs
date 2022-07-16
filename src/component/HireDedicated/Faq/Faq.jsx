@@ -15,7 +15,7 @@ const Faq = ({ faqsData }) => {
     <>
       <Wrapper className="greyBg">
         <Container>
-          <HireTitle className="text-center">FAQ's</HireTitle>
+          <HireTitle className="text-center">FAQ&rsquo;s</HireTitle>
           <Accordion defaultActiveKey="0">
             {faqsData.faqs.faqLists.map((faq, index) => {
               return (

@@ -1,8 +1,7 @@
-
 import React, { useState } from "react";
 import { Form, Row, Col } from "react-bootstrap";
 import "react-phone-number-input/style.css";
-import PhoneInput from "react-phone-number-input";
+// import PhoneInput from "react-phone-number-input";
 import ButtonCustom from "../../../Button/ButtonCustom";
 import { FromWrap, FormTitle, FormSubTitle } from "./HireForm.style";
 const HireForm = () => {
@@ -21,10 +20,10 @@ const HireForm = () => {
   return (
     <FromWrap>
       <FormTitle className="fw700 text-uppercase text-center">
-        LET’S tALK
+        LET&rsquo;S tALK
       </FormTitle>
       <FormSubTitle className="fw400 text-center">
-        {/* Ready to create an unique experience? Let's get in touch! */}
+        Ready to create an unique experience? Let&rsquo;s get in touch!
       </FormSubTitle>
       <Form noValidate validated={validated} onSubmit={handleSubmit}>
         <Row>
@@ -45,15 +44,14 @@ const HireForm = () => {
           </Col>
           <Col sm={6}>
             <Form.Group className="form-group" controlId="formBasicEmail">
-              <PhoneInput
+              {/* <PhoneInput
                 international
                 countryCallingCodeEditable={false}
                 placeholder="Mobile Number"
                 defaultCountry="US"
                 value={value}
                 onChange={setValue}
-                // className="form-control"
-              />
+              /> */}
               {/* <Form.Control required type="phone" placeholder="Mobile Number" /> */}
             </Form.Group>
           </Col>
