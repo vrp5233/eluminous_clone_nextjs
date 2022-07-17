@@ -1,16 +1,16 @@
-export const HomePageData = {
-  metaTitle: "Web Design & Development Company - eLuminous Technologies",
+export const hireDedicated = {
+  metaTitle: "Hire Angular Developers | Hire AngularJS Developers",
   metaDescription:
-    "eLuminous Technologies is Trusted IT Partner For Digital Agencies, Tech Startups, Enterprises.We Build Custom Web Design & Development, Mobile, Business Intelligence Solutions For Clients From 27+ Countries.",
+    "Hire Angular Developers to have seamless visulizations across all devices and help you to build high performace scalable apps to enhance productivity by 70%.",
   metaKeywords:
-    "web design & development company, custom mobile app development company, front end development company, business intelligence and data analytics",
-  title: "Front-End",
-  titleSpan: "DEVELOPMENT SERVICES",
-  smallTitle: "",
+    "hire angular developers, hire angularjs developers,dedicated angular developers",
+  title: "Hire Dedicated",
+  titleSpan: "Developers",
+  smallTitle: "Agile, PMP Certified Dedicated Developers are here to help You!",
   paragraph:
-    "Seamless visualisation across all devices with pixel perfect designs and stunning User experience",
+    "Get access to the <b>Top 1% of the talented development team</b> elected to meet your project needs. Hire dedicated developers who are sourced and screened from extensive vetting process and ready to work for you from Today iteslf!",
   btnLink: "#contact-form-top",
-  btnText: "Get Started",
+  btnText: "Hire Angular Developer",
   imgSrc: "/images/HireDedicated/hire-angular-developers.png",
   imgAlt: "Hire Angular Developers",
   clutchReviewText:
@@ -139,20 +139,17 @@ export const HomePageData = {
       {
         id: "2",
         title: "What are the advantages of AngularJS?",
-        paragraph: null,
+        paragraph: "",
         ulLists: [
           {
-            id: 1,
             list:
               "<b>Open Source:</b> Angularjs is an open-source JavaScript MVC framework, therefore, custom applications can be available to anyone at an affordable cost.",
           },
           {
-            id: 2,
             list:
               "<b>Google-supported framework:</b> AngularJS is supported by a large community, Google. The framework has around 45k stars on <a href='https://github.com/angular/angular' target='_blank'>Github</a> and over 500.000 downloads on weekly basis from <a href='https//www.npmjs.com/package/angular' target='_blank'>npm</a>.",
           },
           {
-            id: 3,
             list:
               "<b>Single page application (SPA):</b> Single page application means only a single HTML web page is loaded and further updation is done on the same page only. User-friendliness and fast loading are the key features for SPA.",
           },

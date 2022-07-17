@@ -4,10 +4,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import LinkCustom from "../../Button/LinkCustom";
 import { RiStarSFill } from "react-icons/ri";
 
-import {
-  LogoWrapper,
-  CircleWrapper,
-} from "../WhyTech/WhyTech.style";
+import { LogoWrapper, CircleWrapper } from "../WhyTech/WhyTech.style";
 import {
   HireDedicatedBannerWrapper,
   TitleWrap,
@@ -33,7 +30,15 @@ const TopBanner = ({ allData }) => {
                   {allData.titleSpan}
                 </span>
               </TitleWrap>
-              <SmallTitleWrap className={allData.smallTitle ? "d-none" : ""}>{allData.smallTitle}</SmallTitleWrap>
+              {allData.smallTitle ? (
+                <SmallTitleWrap
+                  dangerouslySetInnerHTML={{
+                    __html: allData.smallTitle,
+                  }}
+                ></SmallTitleWrap>
+              ) : (
+                ""
+              )}
               <ParagraphWrap>{allData.paragraph}</ParagraphWrap>
               <LinkCustom
                 BtnTransparent={false}
