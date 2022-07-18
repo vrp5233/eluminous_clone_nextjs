@@ -63,7 +63,6 @@ export const menuItemsData = [
   {
     title: "Hire Dedicated Developer",
     path: "/hire-dedicated-developer",
-    
     submenu: [
       {
         title: "Hire Dedicated Developer",
