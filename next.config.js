@@ -12,16 +12,16 @@ const nextConfig = {
       "vrpprojects.infinityfreeapp.com",
     ],
   },
-  // plugins: [
-  //   [
-  //     "styled-components",
-  //     {
-  //       ssr: true,
-  //       displayName: true,
-  //       preprocess: false,
-  //     },
-  //   ],
-  // ],
+  plugins: [
+    [
+      "styled-components",
+      {
+        ssr: true,
+        displayName: true,
+        preprocess: false,
+      },
+    ],
+  ],
 };
 
 module.exports = nextConfig;
