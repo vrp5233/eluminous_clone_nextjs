@@ -31,19 +31,13 @@ export const NavigationWrapper = styled.header`
   }
   nav {
     padding: 0;
-    overflow: hidden;
-  }
-  nav:hover {
-    overflow: inherit;
   }
   .container {
     max-width: 1730px;
   }
   .navbar-brand img {
     max-width: 220px;
-    @media (max-width: ${({ theme }) => theme.media.deskstop1440}) {
-      max-width: 180px;
-    }
+    
   }
   .menus {
     display: flex;
@@ -93,54 +87,13 @@ export const NavigationWrapper = styled.header`
         text-decoration: none;
         border-bottom-color: #2166f3;
       }
-      .mega__menu {
-        position: absolute;
-        left: 0;
-        right: 0;
-        min-width: 100vw;
-        box-shadow: 0 2px 15px rgb(0 0 0 / 3%);
-        padding: 50px 0;
-        z-index: 0;
-        .container {
-          display: flex;
-          width: 100%;
-          flex-wrap: wrap;
-          .menu__wrapper {
-            flex: 0 0 calc(20% - 0px);
-            padding: 0 10px;
-            width: 100%;
-            h5 {
-              color: rgba(var(--black));
-              font-weight: 600;
-              text-transform: uppercase;
-              font-size: 18px;
-            }
-            .dropdownMenu {
-              position: static;
-              transform: translateY(0px);
-              box-shadow: none;
-              width: auto;
-              visibility: visible;
-              opacity: 1;
-              border: 0;
-              .menu-items {
-                padding: 0;
-                a {
-                  padding: 10px 0;
-                }
-              }
-            }
-          }
-        }
-      }
     }
   }
-  .dropdownMenu,
-  .mega__menu {
+  .dropdownMenu {
     list-style: none;
     position: absolute;
     width: 300px;
-    /* background-color: #242d34; */
+    background-color: #242d34;
     color: #fff;
     top: 47px;
     left: -20px;
@@ -161,7 +114,6 @@ export const NavigationWrapper = styled.header`
     .menu-items {
       padding: 0 30px;
       position: relative;
-
       a {
         border: 0;
         text-transform: capitalize;
@@ -170,30 +122,25 @@ export const NavigationWrapper = styled.header`
         color: rgba(var(--black));
         margin: 0 0 6px 0;
         padding: 10px 0 10px 17px;
-        @media (max-width: ${({ theme }) => theme.media.deskstop1440}) {
-          font: 400 15px/18px "Inter", sans-serif;
-        }
         &:last-child {
           margin-bottom: 0;
         }
-        /* &::after {
+        &::after {
           content: "\f0da";
           position: absolute;
           left: 0;
           font: normal normal normal 14px/1 FontAwesome;
           top: 12px;
           color: rgba(255, 255, 255, 0.2784313725490196);
-        } */
-        &:hover,
-        &.active {
+        }
+        &:hover {
           background-color: transparent;
           color: rgba(var(--blue));
         }
       }
     }
   }
-  .dropdownMenu.show,
-  .mega__menu.show {
+  .dropdownMenu.show {
     display: block;
     visibility: visible;
     opacity: 1;
@@ -201,14 +148,10 @@ export const NavigationWrapper = styled.header`
     -ms-transform: translateY(33px);
     transform: translateY(33px);
   }
-  .btn {
+  .btn_wrap a{
     min-width: 250px;
     min-height: 52px;
     font-size: 18px;
     padding: 0 10px;
-    @media (max-width: ${({ theme }) => theme.media.deskstop1440}) {
-      font-size: 16px;
-      min-width: 180px;
-    }
   }
 `;

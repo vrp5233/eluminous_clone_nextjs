@@ -54,7 +54,7 @@ export const ImgWrapper = styled.div`
   transform: translate(0, 0);
   padding: 0 90px 0 0;
   position: relative;
-  .fPMgBu {
+  .sc-bZkfAO {
     left: auto;
     right: 20%;
     top: 0;
@@ -62,6 +62,12 @@ export const ImgWrapper = styled.div`
   @media (max-width: ${({ theme }) => theme.media.deskstop1440}) {
     padding: 0 90px 0 0;
   }
+`;
+
+export const LogoWrapper = styled.div`
+  left: auto;
+  right: 20%;
+  top: 0;
 `;
 
 export const ClutchReview = styled.div`

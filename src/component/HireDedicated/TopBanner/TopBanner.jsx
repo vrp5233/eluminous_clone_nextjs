@@ -15,6 +15,7 @@ import {
   ClutchLogoRate,
   StarWrap,
   List,
+  LogoWrapper2,
 } from "./TopBanner.style";
 const TopBanner = ({ allData }) => {
   // const filePath = window.location.origin + "/images/";
