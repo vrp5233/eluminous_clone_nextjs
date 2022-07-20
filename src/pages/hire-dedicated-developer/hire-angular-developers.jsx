@@ -14,12 +14,12 @@ const HireDedicatedAngular = () => {
   return (
     <>
       <HeadMeta allMeta={HireAngularData} />
-      <TopBanner allData={HireAngularData} />
-      <Expertise expertiseData={HireAngularData} />
-      <WhyTech whyTechData={HireAngularData} />
-      <ReviewSlider ReviewSliderData={HireReviewData} />
-      <CaseStudies CaseStudyData={HireCaseStudiesData} />
-      <Faq faqsData={HireAngularData} />
+      {/* <TopBanner allData={HireAngularData} /> */}
+      {/* <Expertise expertiseData={HireAngularData} /> */}
+      {/* <WhyTech whyTechData={HireAngularData} /> */}
+      {/* <ReviewSlider ReviewSliderData={HireReviewData} /> */}
+      {/* <CaseStudies CaseStudyData={HireCaseStudiesData} /> */}
+      {/* <Faq faqsData={HireAngularData} /> */}
       <Contact />
     </>
   );

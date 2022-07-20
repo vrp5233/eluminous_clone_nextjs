@@ -1,5 +1,4 @@
 
-import Link from "next/link";
 import { CgArrowLongRight } from "react-icons/cg";
 import { BtnWrap } from "./ButtonCustom.style.js";
 // import './Button.css'

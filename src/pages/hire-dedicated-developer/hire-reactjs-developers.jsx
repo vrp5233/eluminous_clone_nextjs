@@ -13,14 +13,14 @@ import Contact from "../../component/HireDedicated/Contact/Contact";
 const HireDedicatedReact = () => {
   return (
     <>
-      <HeadMeta allMeta={HireReactData} />
+      {/* <HeadMeta allMeta={HireReactData} />
       <TopBanner allData={HireReactData} />
       <Expertise expertiseData={HireReactData} />
       <WhyTech whyTechData={HireReactData} />
       <ReviewSlider ReviewSliderData={HireReviewData} />
       <CaseStudies CaseStudyData={HireCaseStudiesData} />
       <Faq faqsData={HireReactData} />
-      <Contact />
+      <Contact /> */}
     </>
   );
 };
