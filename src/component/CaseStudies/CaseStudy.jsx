@@ -18,7 +18,8 @@ const CaseStudy = ({ CaseStudyData }) => {
             <CaseBox key={index} className="d-flex flex-column">
               <CaseImg>
                 <Image
-                  src={CaseSudie.image}
+                  src={"/images/CaseStudies/" + `${CaseSudie.image}`}
+                  // src={`"/images/CaseStudies/" + $CaseSudie.image`}
                   alt="Title"
                   className="w-100"
                   layout="fill"

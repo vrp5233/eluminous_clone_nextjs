@@ -1,8 +1,18 @@
+import Link from "next/link";
 import React from "react";
 import Image from "next/image";
 import { Container, Row, Col } from "react-bootstrap";
 import LinkCustom from "../../Button/LinkCustom";
 import { RiStarSFill } from "react-icons/ri";
+import * as Scroll from "react-scroll";
+import {
+  Button,
+  Element,
+  Events,
+  animateScroll as scroll,
+  scrollSpy,
+  scroller,
+} from "react-scroll";
 
 import { LogoWrapper, CircleWrapper } from "../WhyTech/WhyTech.style";
 import {
@@ -41,11 +51,28 @@ const TopBanner = ({ allData }) => {
                 ""
               )}
               <ParagraphWrap>{allData.paragraph}</ParagraphWrap>
+              {/* <Link
+                activeClass="active"
+                to="hireDedicatedForm"
+                spy={true}
+                smooth={true}
+                offset={-50}
+                duration={500}
+                delay={1000}
+              >
+                <a>Test 2 (delay)</a> 
+              </Link> */}
               <LinkCustom
                 BtnTransparent={false}
                 linkUrl={allData.btnLink}
                 titleText={allData.btnText}
-                colorChange=""
+                className=""
+                activeClass="active"
+                spy={true}
+                smooth={true}
+                offset={-500}
+                duration={6000}
+                delay={6000}
               />
             </Col>
             <Col>

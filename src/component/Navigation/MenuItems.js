@@ -34,11 +34,11 @@ const MenuItems = ({ items, depthLevel }) => {
 
   return (
     <li
-    className={
-      items.title === "Hire Dedicated Developer"
-        ? "menu-items mega__menu__wrapper"
-        : "menu-items"
-    }
+      className={
+        items.title === "Hire Dedicated Developer"
+          ? "menu-items mega__menu__wrapper"
+          : "menu-items"
+      }
       // className="menu-items"
       ref={ref}
       onMouseEnter={onMouseEnter}

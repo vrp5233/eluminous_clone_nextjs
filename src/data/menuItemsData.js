@@ -31,7 +31,7 @@ export const menuItemsData = [
     path: "/",
     submenu: [
       {
-        title: "Menu 1",
+        title: "",
         items: [
           {
             title: "Dedicated Developers",
@@ -55,7 +55,7 @@ export const menuItemsData = [
           },
           {
             title: "Data Analytics & BI Solution (Franchisor Pal)",
-            path: "/https://www.franchisorpal.com/",
+            path: "https://www.franchisorpal.com",
           },
           {
             title: "Digital Marketing",

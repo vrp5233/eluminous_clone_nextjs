@@ -3,13 +3,13 @@ import Image from "next/image";
 import { Container, Row, Col } from "react-bootstrap";
 
 import HireForm from "./Form/HireForm";
-import { WhyTechWrapper, ImgBox, TextBox } from "./Contact.style";
+import { ContactWrapper, ImgBox, TextBox } from "./Contact.style";
 const Contact = () => {
   // const filePath = window.location.origin + "/images/HireDedicated/";
   // const fileIconsPath = window.location.origin + "/images/HireDedicated/icons/";
   return (
     <>
-      <WhyTechWrapper>
+      <ContactWrapper>
         <Container>
           <Row>
             <Col xxl={6}>
@@ -29,12 +29,16 @@ const Contact = () => {
                 <TextBox></TextBox>
               </ImgBox>
             </Col>
-            <Col xxl={6} className="d-flex align-items-center">
+            <Col
+              xxl={6}
+              className="d-flex align-items-center"
+              name="hireDedicatedForm"
+            >
               <HireForm />
             </Col>
           </Row>
         </Container>
-      </WhyTechWrapper>
+      </ContactWrapper>
     </>
   );
 };

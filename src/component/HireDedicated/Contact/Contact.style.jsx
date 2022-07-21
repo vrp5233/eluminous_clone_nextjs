@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const WhyTechWrapper = styled.section``;
+export const ContactWrapper = styled.section``;
 export const ImgBox = styled.div`
   position: relative;
   width: 100%;

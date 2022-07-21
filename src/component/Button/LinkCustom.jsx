@@ -7,14 +7,14 @@ import { BtnWrap } from "./ButtonCustom.style.js";
 const LinkCustom = ({
   linkUrl,
   titleText,
-  colorChange,
+  className,
   BtnTransparent,
   ParentClass,
   target,
 }) => {
   return (
     <BtnWrap BtnTransparent={BtnTransparent} className={`btn_wrap ${ParentClass}`}>
-      <Link href={linkUrl} className={`btn ${colorChange}`} target={target}>
+      <Link href={linkUrl} className={`btn ${className}`} target={target}>
         <a>
           {titleText}
           <CgArrowLongRight />

@@ -9,7 +9,7 @@ export const HireAngularData = {
   smallTitle: "Best UI Award Winners are here to help You!",
   paragraph:
     "Hire angular developers to have seamless visualization across all devices. Our angular developers build high-performance and scalable apps which enhance your productivity by 70%.",
-  btnLink: "#contact-form-top",
+  btnLink: "#hireDedicatedForm",
   btnText: "Hire Angular Developer",
   imgSrc: "/images/HireDedicated/hire-angular-developers.png",
   imgAlt: "Hire Angular Developers",
