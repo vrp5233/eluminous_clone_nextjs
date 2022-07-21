@@ -34,32 +34,36 @@ export const menuItemsData = [
         title: "Menu 1",
         items: [
           {
-            title: "Data Analytics &amp; BI",
-            path: "/",
-          },
-          {
-            title: "Data Analytics &amp; BI Solution (Franchisor Pal)",
-            path: "/",
+            title: "Dedicated Developers",
+            path: "/hire-dedicated-developer",
           },
           {
             title: "Web Development",
-            path: "/",
+            path: "/web-application-development",
           },
           {
             title: "Mobile Apps Development",
-            path: "/",
+            path: "/mobile-app-development",
           },
           {
             title: "Front End Development",
-            path: "/",
+            path: "/front-end-development",
+          },
+          {
+            title: "Data Analytics &amp; BI",
+            path: "/data-analytics-and-bi",
+          },
+          {
+            title: "Data Analytics & BI Solution (Franchisor Pal)",
+            path: "/https://www.franchisorpal.com/",
           },
           {
             title: "Digital Marketing",
-            path: "/",
+            path: "/digital-marketing-services",
           },
           {
             title: "Virtual Assistant",
-            path: "/",
+            path: "/virtual-assistant-services",
           },
         ]
       }
@@ -74,19 +78,19 @@ export const menuItemsData = [
         items: [
           {
             title: "Hire PHP Developers",
-            path: "/dmoee",
+            path: "/hire-dedicated-developer/hire-php-developers",
           },
           {
             title: "Hire Laravel Developers",
-            path: "/dmoee",
+            path: "/hire-dedicated-developer/hire-laravel-developers",
           },
           {
             title: "Hire .Net Developers",
-            path: "/dmoee",
+            path: "/hire-dedicated-developer/hire-dotnet-developers",
           },
           {
             title: "Hire NodeJS Developers",
-            path: "/dmoee",
+            path: "/hire-dedicated-developer/hire-nodejs-developers",
           },
         ]
       },
@@ -95,19 +99,19 @@ export const menuItemsData = [
         items: [
           {
             title: "Hire iOS Developers",
-            path: "/demo",
+            path: "/hire-dedicated-developer/hire-ios-developers",
           },
           {
             title: "Hire Android Developers",
-            path: "/demo",
+            path: "/hire-dedicated-developer/hire-android-developers",
           },
           {
             title: "Hire Ionic Developers",
-            path: "/demo",
+            path: "/hire-dedicated-developer/hire-ionic-developers",
           },
           {
             title: "Hire Flutter Developers",
-            path: "/demo",
+            path: "/hire-dedicated-developer/hire-flutter-developers",
           },
         ]
       },
@@ -116,15 +120,15 @@ export const menuItemsData = [
         items: [
           {
             title: "Hire Angular Developers",
-            path: "/demo",
+            path: "/hire-dedicated-developer/hire-angular-developers",
           },
           {
             title: "Hire ReactJS Developers",
-            path: "/demo",
+            path: "/hire-dedicated-developer/hire-reactjs-developers",
           },
           {
             title: "Hire VueJS Developers",
-            path: "/demo",
+            path: "/hire-dedicated-developer/hire-vuejs-developers",
           },
         ]
       },
@@ -133,19 +137,19 @@ export const menuItemsData = [
         items: [
           {
             title: "Hire WordPress Developers",
-            path: "/demo",
+            path: "/hire-dedicated-developer/hire-wordpress-developers",
           },
           {
             title: "Hire Shopify Developers",
-            path: "/demo",
+            path: "/hire-dedicated-developer/hire-shopify-developers",
           },
           {
             title: "Hire Magento Developers",
-            path: "/demo",
+            path: "/hire-dedicated-developer/hire-magento-developers",
           },
           {
             title: "Hire Drupal Developers",
-            path: "/demo",
+            path: "/hire-dedicated-developer/hire-drupal-developers",
           },
         ]
       },
@@ -154,7 +158,7 @@ export const menuItemsData = [
         items: [
           {
             title: "Hire Dedicated Developers",
-            path: "/demo",
+            path: "/hire-dedicated-developer",
           },
         ]
       },

@@ -3,7 +3,7 @@ import MenuItems from "./MenuItems";
 const Navbar = () => {
   return (
     <nav>
-      <ul className="menus">
+      <ul className="menusList">
         {" "}
         {menuItemsData.map((menu, index) => {
           const depthLevel = 0;

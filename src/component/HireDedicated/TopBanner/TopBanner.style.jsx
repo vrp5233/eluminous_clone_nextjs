@@ -54,7 +54,7 @@ export const ImgWrapper = styled.div`
   transform: translate(0, 0);
   padding: 0 90px 0 0;
   position: relative;
-  .sc-bZkfAO {
+  .WhyTechstyle__LogoWrapper-sc-uawclk-9 {
     left: auto;
     right: 20%;
     top: 0;

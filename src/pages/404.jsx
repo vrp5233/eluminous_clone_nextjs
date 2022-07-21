@@ -1,6 +1,6 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-import ButtonCustom from "../component/Button/ButtonCustom";
+import LinkCustom from "../component/Button/LinkCustom";
 // import Base from "../core/Base";
 import styled from "styled-components";
 
@@ -17,7 +17,7 @@ const ErrorComponent = () => {
             The link you’re trying to access is probably broken, or the page has
             been removed.
           </Paragraph>
-          <ButtonCustom
+          <LinkCustom
             BtnTransparent={false}
             linkUrl="/"
             titleText="Back to Home"
