@@ -1,7 +1,7 @@
 export const HomeData = [
   {
     caption: "banner-image-top",
-    icon: "images//banner-image-top.png",
+    icon: "images/banner-image-top.png",
   },
 
   {
