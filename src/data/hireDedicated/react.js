@@ -9,7 +9,7 @@ export const HireReactData = {
   smallTitle: "Best UI Award Winners are here to help You!",
   paragraph:
     "Hire ReactJS developers trusted by 97% of CTOs. eLuminous Technologies offer flexible hiring models to help you in web and mobile.",
-  btnLink: "#contact-form-top",
+  btnLink: "#hireDedicatedForm",
   btnText: "Hire ReactJS Developer",
   imgSrc: "/images/HireDedicated/hire-react-developers.png",
   imgAlt: "Hire ReactJS Developers",

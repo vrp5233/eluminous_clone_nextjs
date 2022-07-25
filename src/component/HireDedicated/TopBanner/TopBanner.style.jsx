@@ -11,38 +11,38 @@ export const HireDedicatedBannerWrapper = styled.section`
 `;
 
 export const TitleWrap = styled.h1`
-  font: 900 90px/95px "Inter", sans-serif;
+  font: 900 90px/95px var(--inter);
   margin-bottom: 39px;
   @media (max-width: ${({ theme }) => theme.media.deskstop1600}) {
-    font: 900 82px/95px "Inter", sans-serif;
+    font: 900 82px/95px var(--inter);
   }
   @media (max-width: ${({ theme }) => theme.media.deskstop1440}) {
-    font: 900 68px/82px "Inter", sans-serif;
+    font: 900 68px/82px var(--inter);
   }
 `;
 
 export const SmallTitleWrap = styled.h2`
-  font: 700 30px / normal "Inter", sans-serif;
+  font: 700 30px / normal var(--inter);
   margin-bottom: 65px;
   @media (max-width: ${({ theme }) => theme.media.deskstop1600}) {
-    font: 700 26px / normal "Inter", sans-serif;
+    font: 700 26px / normal var(--inter);
   }
   @media (max-width: ${({ theme }) => theme.media.deskstop1440}) {
-    font: 700 22px / normal "Inter", sans-serif;
+    font: 700 22px / normal var(--inter);
     margin-bottom: 46px;
   }
 `;
 
 export const ParagraphWrap = styled.p`
-  font: 400 24px/38px "Inter", sans-serif;
+  font: 400 24px/38px var(--inter);
   margin: 0 0 77px 0;
   max-width: 780px;
   @media (max-width: ${({ theme }) => theme.media.deskstop1600}) {
-    font: 400 20px/34px "Inter", sans-serif;
+    font: 400 20px/34px var(--inter);
     margin: 0 0 65px 0;
   }
   @media (max-width: ${({ theme }) => theme.media.deskstop1440}) {
-    font: 400 18px/30px "Inter", sans-serif;
+    font: 400 18px/30px var(--inter);
     margin: 0 0 45px 0;
   }
 `;
@@ -84,7 +84,7 @@ export const ClutchReview = styled.div`
     transform: scale(0.85) translate(30px, -40px);
   }
   p {
-    font: 14px / 22px "Inter", sans-serif;
+    font: 14px / 22px var(--inter);
     max-width: 255px;
     color: rgba(var(--black));
   }
@@ -103,11 +103,11 @@ export const StarWrap = styled.div`
   ul {
     li {
       display: flex;
-      font: 22px / normal "Inter", sans-serif;
+      font: 22px / normal var(--inter);
       margin: 0 -1px;
       color: #fd3e2f;
       @media (max-width: ${({ theme }) => theme.media.deskstop1440}) {
-        font: 20px / normal "Inter", sans-serif;
+        font: 20px / normal var(--inter);
       }
     }
   }

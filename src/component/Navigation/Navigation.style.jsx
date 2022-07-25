@@ -175,6 +175,14 @@ export const NavigationWrapper = styled.header`
               color: #000;
               text-transform: uppercase;
               font-size: 18px;
+              a {     
+                color: #000;
+                text-decoration: none;
+                transition: var(--trans_a3);
+                &:hover {
+                  color: rgba(var(--blue));
+                }
+              }
             }
             .dropdownMenu {
               position: static;
