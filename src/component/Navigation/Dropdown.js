@@ -1,6 +1,5 @@
 // import MenuItems from "./MenuItems";
 // import { Link } from "react-router-dom";
-import { useRouter } from "next/router";
 import LinkCustom from "../Button/LinkCustom";
 import Link from "next/link";
 const Dropdown = ({ submenus, dropdown, depthLevel }) => {
@@ -20,15 +19,7 @@ const Dropdown = ({ submenus, dropdown, depthLevel }) => {
             <div className="container">
               {submenus.map((submenu, index) => (
                 <div className="menu__wrapper" key={submenu.title + index}>
-                  {/* <h5>{submenu.title}</h5> */}
-                  <h5>
-                    <Link href={submenu.path}>
-                      <a>{submenu.title}</a>
-                    </Link>
-                  </h5>
-                  {/* <Link href={submenu.path}>
-                    <a>{submenu.title}</a>
-                  </Link> */}
+                  <h5>{submenu.title}</h5>
                   <ul className="dropdownMenu">
                     {submenu.items.map((item) => (
                       <li
@@ -42,8 +33,8 @@ const Dropdown = ({ submenus, dropdown, depthLevel }) => {
                             titleText={item.title}
                           />
                         ) : (
-                          <Link href={item.path} className={router.path == router.path ? "active" : ""}>
-                            <a exact >{item.title}</a>
+                          <Link href={item.path}>
+                            <a exact className={item.path == item.path ? "active" : ""}>{item.title}</a>
                           </Link>
                         )}
                       </li>

@@ -65,8 +65,8 @@ export const menuItemsData = [
             title: "Virtual Assistant",
             path: "/virtual-assistant-services",
           },
-        ]
-      }
+        ],
+      },
     ],
   },
   {
@@ -94,7 +94,7 @@ export const menuItemsData = [
             title: "Hire NodeJS Developers",
             path: "/hire-dedicated-developer/hire-nodejs-developers",
           },
-        ]
+        ],
       },
       {
         title: "MOBILE",
@@ -116,7 +116,7 @@ export const menuItemsData = [
             title: "Hire Flutter Developers",
             path: "/hire-dedicated-developer/hire-flutter-developers",
           },
-        ]
+        ],
       },
       {
         title: "FRONTEND",
@@ -134,7 +134,7 @@ export const menuItemsData = [
             title: "Hire VueJS Developers",
             path: "/hire-dedicated-developer/hire-vuejs-developers",
           },
-        ]
+        ],
       },
       {
         title: "CMS",
@@ -156,7 +156,7 @@ export const menuItemsData = [
             title: "Hire Drupal Developers",
             path: "/hire-dedicated-developer/hire-drupal-developers",
           },
-        ]
+        ],
       },
       {
         title: "FULL STACK",
@@ -166,7 +166,7 @@ export const menuItemsData = [
             title: "Hire Dedicated Developers",
             path: "/hire-dedicated-developer",
           },
-        ]
+        ],
       },
     ],
   },
@@ -210,7 +210,7 @@ export const menuItemsData = [
             title: "Company Brochure",
             path: "/",
           },
-        ]
+        ],
       },
     ],
   },

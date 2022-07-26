@@ -61,8 +61,6 @@ const Navigation = () => {
               linkUrl="/about-us"
               titleText="Get a Quote"
             />
-
-            <Scrollbars style={{ width: 600, height: 800 }}></Scrollbars>
             <MenuDrawer />
           </BarWrapper>
         </Container>
