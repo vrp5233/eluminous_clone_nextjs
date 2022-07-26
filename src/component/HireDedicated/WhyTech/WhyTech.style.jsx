@@ -24,16 +24,16 @@ export const SmallTitle = styled.h6`
 `;
 
 export const Title = styled.h2`
-  font: 26px / 38px "Inter", sans-serif;
+  font: 26px / 38px var(--inter);
   font-size: 26px;
   margin: 0 0 45px;
 `;
 export const Paragraph = styled.p`
-  font: 18px / 28px "Inter", sans-serif;
+  font: 18px / 28px var(--inter);
   margin: 0 0 45px;
 `;
 export const BlueParagraph = styled(Paragraph)`
-  font: 22px / normal "Inter", sans-serif;
+  font: 22px / normal var(--inter);
   margin: 0 0 30px;
 `;
 
@@ -144,11 +144,11 @@ export const BottomListWrapper = styled.div`
       display: inline-block;
     }
     .title {
-      font: 22px / 25px "Inter", sans-serif;
+      font: 22px / 25px var(--inter);
       margin: 0 0 22px;
     }
     p {
-      font: 16px / 25px "Inter", sans-serif;
+      font: 16px / 25px var(--inter);
     }
   }
 `;

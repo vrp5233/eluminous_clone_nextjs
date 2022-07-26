@@ -56,13 +56,13 @@ export const Left = styled.div`
 `;
 
 export const SliderHeading = styled.h5`
-  font: 18px / normal "Inter", sans-serif;
+  font: 18px / normal var(--inter);
   letter-spacing: 1px;
   margin: 0 0 15px;
   display: inline-block;
 `;
 export const ReviewText = styled.div`
-  font: 28px / 40px "Inter", sans-serif;
+  font: 28px / 40px var(--inter);
   color: rgb(var(--black_normal));
 `;
 
@@ -117,7 +117,7 @@ export const AvtarDetails = styled.div`
     color: rgb(var(--white));
   }
   .name__details {
-    font: 16px / 22px "Inter", sans-serif;
+    font: 16px / 22px var(--inter);
     color: rgb(var(--white));
   }
 `;
@@ -139,7 +139,7 @@ export const StarWrapper = styled(StarWrap)`
   color: rgb(var(--white));
   ul {
     li {
-      font: 40px / normal "Inter", sans-serif;
+      font: 40px / normal var(--inter);
       color: #fd3e2f;
     }
   }

@@ -25,7 +25,7 @@ ol {
   margin: 0;
   padding: 0;
   list-style: none;
-  font-family: "Inter", sans-serif;
+  font-family: var(--inter);
 }
 
 body {
@@ -187,12 +187,12 @@ export const BtnWrap = styled.div`
   }
 `;
 export const HireTitle = styled.h2`
-  font: 700 46px / normal "Inter", sans-serif;
+  font: 700 46px / normal var(--inter);
   margin-bottom: 30px;
   color: rgba(var(--black));
 `;
 export const HireSmallTitle = styled.h3`
-  font: 400 20px / 34px "Inter", sans-serif;
+  font: 400 20px / 34px var(--inter);
   color: #000;
   max-width: 872px;
   margin-bottom: 90px;

@@ -251,8 +251,13 @@ export const NavigationWrapper = styled.header`
               color: #000;
               text-transform: uppercase;
               font-size: 18px;
-              @media (max-width: ${({ theme }) => theme.media.ipad1199}) {
-                margin: 0 0 10px;
+              a {     
+                color: #000;
+                text-decoration: none;
+                transition: var(--trans_a3);
+                &:hover {
+                  color: rgba(var(--blue));
+                }
               }
             }
             .dropdownMenu {

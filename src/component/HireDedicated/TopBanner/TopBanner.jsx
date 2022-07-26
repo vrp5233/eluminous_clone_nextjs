@@ -59,7 +59,7 @@ const TopBanner = ({ allData }) => {
                 activeClass="active"
                 spy={true}
                 smooth={true}
-                offset={-500}
+                offset={500}
                 duration={6000}
                 delay={6000}
               />

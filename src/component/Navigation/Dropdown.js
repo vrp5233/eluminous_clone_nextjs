@@ -20,7 +20,15 @@ const Dropdown = ({ submenus, dropdown, depthLevel }) => {
             <div className="container">
               {submenus.map((submenu, index) => (
                 <div className="menu__wrapper" key={submenu.title + index}>
-                  <h5>{submenu.title}</h5>
+                  {/* <h5>{submenu.title}</h5> */}
+                  <h5>
+                    <Link href={submenu.path}>
+                      <a>{submenu.title}</a>
+                    </Link>
+                  </h5>
+                  {/* <Link href={submenu.path}>
+                    <a>{submenu.title}</a>
+                  </Link> */}
                   <ul className="dropdownMenu">
                     {submenu.items.map((item) => (
                       <li
