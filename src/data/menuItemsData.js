@@ -72,6 +72,7 @@ export const menuItemsData = [
   {
     title: "Hire Dedicated Developer",
     path: "/hire-dedicated-developer",
+    megaMenu: "1",
     submenu: [
       {
         title: "BACKEND",
@@ -179,6 +180,7 @@ export const menuItemsData = [
   {
     title: "About Us",
     path: "/",
+    megaMenu: "1",
     submenu: [
       {
         title: "Menu 1",
@@ -204,7 +206,7 @@ export const menuItemsData = [
             path: "/",
           },
         ]
-      }
+      },
     ],
   },
 ];

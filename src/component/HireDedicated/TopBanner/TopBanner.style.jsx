@@ -54,20 +54,14 @@ export const ImgWrapper = styled.div`
   transform: translate(0, 0);
   padding: 0 90px 0 0;
   position: relative;
-  .WhyTechstyle__LogoWrapper-sc-uawclk-9 {
+  /* .WhyTechstyle__LogoWrapper-sc-uawclk-9 {
     left: auto;
     right: 20%;
     top: 0;
-  }
+  } */
   @media (max-width: ${({ theme }) => theme.media.deskstop1440}) {
     padding: 0 90px 0 0;
   }
-`;
-
-export const LogoWrapper = styled.div`
-  left: auto;
-  right: 20%;
-  top: 0;
 `;
 
 export const ClutchReview = styled.div`

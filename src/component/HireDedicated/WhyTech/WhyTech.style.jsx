@@ -1,4 +1,4 @@
-import styled, { keyframes } from "styled-components";
+import styled, { css, keyframes } from "styled-components";
 
 export const WhyTechWrapper = styled.section``;
 export const GreyWrapper = styled.div`
@@ -76,7 +76,7 @@ from {
     opacity: 0;
   }
 `;
-export const LogoWrapper = styled.div`
+export const AniMationLogo = styled.div`
   position: absolute;
   z-index: 1;
   width: 120px;
@@ -85,6 +85,13 @@ export const LogoWrapper = styled.div`
   background-color: rgba(var(--white));
   bottom: 100px;
   left: 0;
+  ${({ HireDedicatedTopBanner }) =>
+    HireDedicatedTopBanner &&
+    css`
+      left: auto;
+      right: 20%;
+      top: 0;
+    `}
   .logo {
     width: 120px;
     height: 120px;

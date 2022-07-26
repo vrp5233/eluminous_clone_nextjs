@@ -3,6 +3,7 @@ const GlobalStyleThemes = {
     deskstop1600: "1600px",
     deskstop1440: "1440px",
     ipad1199: "1199px",
+    ipad1024: "1024px",
     ipad991: "991px",
     mobile767: "767px",
     mobile640: "640px",

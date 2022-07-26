@@ -1,5 +1,6 @@
 // import MenuItems from "./MenuItems";
 // import { Link } from "react-router-dom";
+import { useRouter } from "next/router";
 import LinkCustom from "../Button/LinkCustom";
 import Link from "next/link";
 const Dropdown = ({ submenus, dropdown, depthLevel }) => {
@@ -33,8 +34,8 @@ const Dropdown = ({ submenus, dropdown, depthLevel }) => {
                             titleText={item.title}
                           />
                         ) : (
-                          <Link href={item.path}>
-                            <a>{item.title}</a>
+                          <Link href={item.path} className={router.path == router.path ? "active" : ""}>
+                            <a exact >{item.title}</a>
                           </Link>
                         )}
                       </li>
@@ -61,7 +62,7 @@ const Dropdown = ({ submenus, dropdown, depthLevel }) => {
                   key={item.title + index}
                 >
                   <Link href={item.path}>
-                    <a>{item.title}</a>
+                    <a className="active">{item.title}</a>
                   </Link>
                 </li>
               ))}

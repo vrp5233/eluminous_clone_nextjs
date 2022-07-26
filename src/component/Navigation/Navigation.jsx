@@ -5,9 +5,11 @@ import { Nav, Navbar, Container } from "react-bootstrap";
 import { MdEmail } from "react-icons/md";
 import MenuList from "./MenuList";
 import LinkCustom from "../Button/LinkCustom";
+import MenuDrawer from "./MenuDrawer";
 import {
   NavigationWrapper,
   NavigationToolbarWrapper,
+  BarWrapper,
 } from "./Navigation.style";
 
 const Navigation = () => {
@@ -46,17 +48,23 @@ const Navigation = () => {
               </a>
             </Link>
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="navbarScroll" />
+          {/* <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav className=" w-100 d-flex justify-content-center" navbarScroll>
               <MenuList />
             </Nav>
-          </Navbar.Collapse>
-          <LinkCustom
-            BtnTransparent={false}
-            linkUrl="/about-us"
-            titleText="Get a Quote"
-          />
+          </Navbar.Collapse> */}
+          <MenuList className="" />
+          <BarWrapper>
+            <LinkCustom
+              BtnTransparent={false}
+              linkUrl="/about-us"
+              titleText="Get a Quote"
+            />
+
+            <Scrollbars style={{ width: 600, height: 800 }}></Scrollbars>
+            <MenuDrawer />
+          </BarWrapper>
         </Container>
       </Navbar>
     </NavigationWrapper>

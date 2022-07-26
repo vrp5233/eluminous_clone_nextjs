@@ -5,6 +5,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import LinkCustom from "../../Button/LinkCustom";
 import { RiStarSFill } from "react-icons/ri";
 import * as Scroll from "react-scroll";
+import { BtnWrap } from "../../../styles/GlobalStyle.style";
 import {
   Button,
   Element,
@@ -14,7 +15,7 @@ import {
   scroller,
 } from "react-scroll";
 
-import { LogoWrapper, CircleWrapper } from "../WhyTech/WhyTech.style";
+import { AniMationLogo, CircleWrapper } from "../WhyTech/WhyTech.style";
 import {
   HireDedicatedBannerWrapper,
   TitleWrap,
@@ -25,7 +26,6 @@ import {
   ClutchLogoRate,
   StarWrap,
   List,
-  LogoWrapper2,
 } from "./TopBanner.style";
 const TopBanner = ({ allData }) => {
   // const filePath = window.location.origin + "/images/";
@@ -51,17 +51,6 @@ const TopBanner = ({ allData }) => {
                 ""
               )}
               <ParagraphWrap>{allData.paragraph}</ParagraphWrap>
-              {/* <Link
-                activeClass="active"
-                to="hireDedicatedForm"
-                spy={true}
-                smooth={true}
-                offset={-50}
-                duration={500}
-                delay={1000}
-              >
-                <a>Test 2 (delay)</a> 
-              </Link> */}
               <LinkCustom
                 BtnTransparent={false}
                 linkUrl={allData.btnLink}
@@ -77,7 +66,7 @@ const TopBanner = ({ allData }) => {
             </Col>
             <Col>
               <ImgWrapper>
-                <LogoWrapper>
+                <AniMationLogo HireDedicatedTopBanner={true}>
                   <div className="logo d-flex justify-content-center align-items-center">
                     <Image
                       src={allData.whyTechs.imgLogo}
@@ -94,7 +83,7 @@ const TopBanner = ({ allData }) => {
                       return <div className="circle" key={index}></div>;
                     })}
                   </CircleWrapper>
-                </LogoWrapper>
+                </AniMationLogo>
                 <Image
                   src={allData.imgSrc}
                   alt={allData.imgAlt}

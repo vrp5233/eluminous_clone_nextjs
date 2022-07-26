@@ -14,6 +14,15 @@ export const NavigationToolbarWrapper = styled.div`
     margin-right: 6px;
   }
 `;
+
+export const BarWrapper = styled.div`
+  @media (max-width: ${({ theme }) => theme.media.ipad1199}) {
+    display: flex;
+    column-gap: 25px;
+    align-items: center;
+  }
+`;
+
 export const NavigationWrapper = styled.header`
   position: fixed;
   top: 0;
@@ -38,22 +47,44 @@ export const NavigationWrapper = styled.header`
   }
   .container {
     max-width: 1730px;
+    @media (max-width: ${({ theme }) => theme.media.ipad1199}) {
+      & > nav {
+        display: none;
+      }
+    }
   }
-  .navbar-brand img {
+  .navbar-brand {
     max-width: 220px;
     @media (max-width: ${({ theme }) => theme.media.deskstop1440}) {
       max-width: 180px;
+    }
+    img {
     }
   }
   .menusList {
     display: flex;
     transition: var(--trans_a3);
+    @media (max-width: ${({ theme }) => theme.media.ipad1199}) {
+      display: block;
+      margin-bottom: 80px;
+    }
     .menu-items {
       position: relative;
-      padding-right: 18px;
-      padding-left: 18px;
+      padding: 0 18px;
+      @media (max-width: ${({ theme }) => theme.media.deskstop1600}) {
+        padding: 0 12px;
+      }
+      @media (max-width: ${({ theme }) => theme.media.deskstop1440}) {
+        padding: 0 10px;
+      }
+      @media (max-width: ${({ theme }) => theme.media.ipad1199}) {
+        border-bottom: 1px solid rgba(var(--grey));
+        &:last-child {
+          border: 0;
+        }
+      }
       & > a {
-        padding: 0 10px 0 0;
+        /* padding: 0 10px 0 0; */
         position: relative;
       }
       & > button {
@@ -81,6 +112,18 @@ export const NavigationWrapper = styled.header`
         text-decoration: none;
         transition: var(--trans_a3);
         display: block;
+        @media (max-width: ${({ theme }) => theme.media.deskstop1440}) {
+          font: 600 16px/75px "Inter", sans-serif;
+        }
+        @media (max-width: ${({ theme }) => theme.media.ipad1199}) {
+          text-align: left;
+          line-height: 36px;
+          font-size: 16px;
+          padding: 5px 0;
+          &:last-child {
+            padding-bottom: 0;
+          }
+        }
       }
       &:hover > a,
       &:hover > button,
@@ -88,6 +131,9 @@ export const NavigationWrapper = styled.header`
       &.active button {
         text-decoration: none;
         border-bottom-color: #2166f3;
+        @media (max-width: ${({ theme }) => theme.media.ipad1199}) {
+          border-color: transparent;
+        }
       }
       .dropdownMenu,
       .mega__menu {
@@ -104,10 +150,21 @@ export const NavigationWrapper = styled.header`
         background-color: #fff;
         border-top: 1px solid #e3e3e3;
         box-shadow: 0 12px 20px rgb(0 0 0 / 10%);
+        @media (max-width: ${({ theme }) => theme.media.ipad1199}) {
+          position: static;
+          display: none;
+          box-shadow: none;
+          &.show {
+            transform: translate(0);
+          }
+        }
         .sub__menu__items,
         .sub__sub__menu__items {
           padding: 0 30px;
           position: relative;
+          @media (max-width: ${({ theme }) => theme.media.ipad1199}) {
+            padding: 0 10px;
+          }
           & > a {
             border: 0;
             text-transform: capitalize;
@@ -142,14 +199,25 @@ export const NavigationWrapper = styled.header`
           }
         }
       }
+      /* &:hover > .dropdownMenu,
+      &:hover > .mega__menu {
+        display: block;
+        visibility: visible;
+        opacity: 1;
+        transform: translateY(33px);
+        @media (max-width: ${({ theme }) => theme.media.ipad1199}) {
+          transform: translateY(0px);
+        }
+      } */
       .dropdownMenu.show,
       .mega__menu.show {
         display: block;
         visibility: visible;
         opacity: 1;
-        -webkit-transform: translateY(33px);
-        -ms-transform: translateY(33px);
         transform: translateY(33px);
+        @media (max-width: ${({ theme }) => theme.media.ipad1199}) {
+          transform: translateY(0px);
+        }
       }
     }
     .mega__menu__wrapper {
@@ -160,12 +228,20 @@ export const NavigationWrapper = styled.header`
         min-width: 100vw;
         padding: 50px 0;
         z-index: 0;
+        @media (max-width: ${({ theme }) => theme.media.ipad1199}) {
+          padding: 20px 0;
+          min-width: 100%;
+        }
         .container {
           max-width: 1700px !important;
           margin: 0 auto;
           display: flex;
           width: 100%;
           flex-wrap: wrap;
+          @media (max-width: ${({ theme }) => theme.media.ipad1199}) {
+            display: block;
+            padding: 0;
+          }
           .menu__wrapper {
             flex: 0 0 calc(20% - 0px);
             padding: 0 10px;
@@ -175,6 +251,9 @@ export const NavigationWrapper = styled.header`
               color: #000;
               text-transform: uppercase;
               font-size: 18px;
+              @media (max-width: ${({ theme }) => theme.media.ipad1199}) {
+                margin: 0 0 10px;
+              }
             }
             .dropdownMenu {
               position: static;
@@ -186,6 +265,11 @@ export const NavigationWrapper = styled.header`
               border: 0;
               opacity: 1;
               visibility: visible;
+              @media (max-width: ${({ theme }) => theme.media.ipad1199}) {
+                display: block;
+                padding: 0;
+                margin-bottom: 30px;
+              }
               .sub__sub__menu__items {
                 padding: 0;
               }
@@ -201,6 +285,9 @@ export const NavigationWrapper = styled.header`
       min-height: 52px;
       font-size: 18px;
       padding: 0 10px;
+      @media (max-width: ${({ theme }) => theme.media.deskstop1600}) {
+        min-width: 210px;
+      }
       @media (max-width: ${({ theme }) => theme.media.deskstop1440}) {
         font-size: 16px;
         min-width: 180px;

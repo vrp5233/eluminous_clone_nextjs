@@ -15,7 +15,7 @@ import {
   BlueParagraph,
   ImgWrapper,
   List,
-  LogoWrapper,
+  AniMationLogo,
   CircleWrapper,
   BottomListWrapper,
 } from "./WhyTech.style";
@@ -78,7 +78,7 @@ const WhyTech = ({ whyTechData }) => {
                       }
                     )}
                   </List>
-                  <LogoWrapper>
+                  <AniMationLogo>
                     <div className="logo d-flex justify-content-center align-items-center">
                       <Image
                         src={whyTechData.whyTechs.imgLogo}
@@ -95,11 +95,11 @@ const WhyTech = ({ whyTechData }) => {
                         return <div className="circle" key={index}></div>;
                       })}
                     </CircleWrapper>
-                  </LogoWrapper>
+                  </AniMationLogo>
                 </ImgWrapper>
               </Col>
             </Row>
-            {/* <BottomListWrapper>
+            <BottomListWrapper>
               <Row>
                 {whyTechData.whyTechs.WhyTechLists.map((WhyTechList, index) => {
                   return (
@@ -130,7 +130,7 @@ const WhyTech = ({ whyTechData }) => {
                   );
                 })}
               </Row>
-            </BottomListWrapper> */}
+            </BottomListWrapper>
           </GreyWrapper>
         </Container>
       </WhyTechWrapper>
