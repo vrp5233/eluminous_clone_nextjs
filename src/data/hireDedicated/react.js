@@ -122,6 +122,7 @@ export const HireReactData = {
           "<p> React. js is an open-source JavaScript library used for building user interfaces, especially for single-page applications. It is used for handling the view layer for web and mobile applications. React developers create large web applications that can change data without reloading the page.</p>",
         ulLists: [
           {
+            id: "0",
             list: "",
           },
         ],
@@ -133,18 +134,23 @@ export const HireReactData = {
           "<p><b>Below are the popular websites built with ReactJS:</b></p>",
         ulLists: [
           {
+            id: "0",
             list: "Facebook",
           },
           {
+            id: "1",
             list: "Netflix",
           },
           {
+            id: "2",
             list: "Salesforce",
           },
           {
+            id: "3",
             list: "Flipboard",
           },
           {
+            id: "4",
             list: "Instacart",
           },
         ],
@@ -157,6 +163,7 @@ export const HireReactData = {
         imgSrc: "images/react-gragh.webp",
         ulLists: [
           {
+            id: "0",
             list: "",
           },
         ],
@@ -167,21 +174,27 @@ export const HireReactData = {
         paragraph: "",
         ulLists: [
           {
+            id: "0",
             list: "Large community support",
           },
           {
+            id: "1",
             list: "Provide reusable components",
           },
           {
+            id: "2",
             list: "Creating dynamic web applications becomes easier",
           },
           {
+            id: "3",
             list: "SEO friendly code",
           },
           {
+            id: "4",
             list: "JavaScript library",
           },
           {
+            id: "5",
             list:
               "Suitable for modern web development and native rendered apps for iOS and Android",
           },

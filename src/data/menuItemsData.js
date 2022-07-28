@@ -185,7 +185,7 @@ export const menuItemsData = [
   {
     title: "About Us",
     path: "/",
-    megaMenu: "1",
+    megaMenu: "0",
     submenu: [
       {
         title: "Menu 1",

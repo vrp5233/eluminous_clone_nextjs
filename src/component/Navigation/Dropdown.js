@@ -34,7 +34,7 @@ const Dropdown = ({ submenus, dropdown, depthLevel }) => {
                           />
                         ) : (
                           <Link href={item.path}>
-                            <a exact className={item.path == item.path ? "active" : ""}>{item.title}</a>
+                            <a className={item.path == item.path ? "active" : ""}>{item.title}</a>
                           </Link>
                         )}
                       </li>

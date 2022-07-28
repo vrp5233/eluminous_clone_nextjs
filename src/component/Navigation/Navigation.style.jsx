@@ -9,6 +9,12 @@ export const NavigationToolbarWrapper = styled.div`
   color: #414549;
   line-height: 1.2;
   letter-spacing: 0.6px;
+  &.is-sticky {
+    background-color: rgba(var(--white));
+    -webkit-box-shadow: 0 2px 17px rgb(0 0 0 / 11%);
+    box-shadow: 0 2px 17px rgb(0 0 0 / 11%);
+    transition: var(--trans);
+  }
   svg {
     font-size: 20px;
     margin-right: 6px;
@@ -29,6 +35,7 @@ export const NavigationWrapper = styled.header`
   left: 0;
   width: 100%;
   z-index: 9990;
+  height: 114px;
   background-color: rgba(var(--white));
   background-color: ${({ bg }) => bg};
   transition: var(--trans_a3);
@@ -135,6 +142,12 @@ export const NavigationWrapper = styled.header`
           border-color: transparent;
         }
       }
+      &:hover .dropdownMenu{        
+      visibility: visible;
+      opacity: 1;
+      transform: translateY(33px);
+      display: block;
+      }
       .dropdownMenu,
       .mega__menu {
         position: absolute;
@@ -150,6 +163,7 @@ export const NavigationWrapper = styled.header`
         background-color: #fff;
         border-top: 1px solid #e3e3e3;
         box-shadow: 0 12px 20px rgb(0 0 0 / 10%);
+        display: none;
         @media (max-width: ${({ theme }) => theme.media.ipad1199}) {
           position: static;
           display: none;
