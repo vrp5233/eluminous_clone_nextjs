@@ -191,7 +191,7 @@ export const HireTitle = styled.h2`
   margin-bottom: 30px;
   color: rgba(var(--black));
 `;
-export const HireSmallTitle = styled.h3`
+export const HireSmallTitle = styled.h6`
   font: 400 20px / 34px var(--inter);
   color: #000;
   max-width: 872px;

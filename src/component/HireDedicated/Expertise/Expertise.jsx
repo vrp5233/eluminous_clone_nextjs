@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import LinkCustom from "../../Button/LinkCustom";
 // import { Title } from "../WhyTech/WhyTech.style";
 // import svg1 from "../../../assets/images/HireDedicated/icons/cross-platform.svg";
-import { HireTitle, HireSmallTitle } from "../../../styles/GlobalStyle.style"
+import { HireTitle, HireSmallTitle } from "../../../styles/GlobalStyle.style";
 import {
   ExpertiseWrapper,
   ExpertiseBox,
@@ -32,7 +32,12 @@ const Expertise = ({ expertiseData }) => {
                 >
                   <ExpertiseBox>
                     <span>
-                    <object data={expertList.expertImage} type="image/svg+xml">{expertList.title}</object>
+                      <object
+                        data={expertList.expertImage}
+                        type="image/svg+xml"
+                      >
+                        {expertList.title}
+                      </object>
                       {/* <img
                         src={expertList.expertImage}
                         alt="Title"
