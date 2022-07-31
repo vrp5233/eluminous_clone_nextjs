@@ -20,7 +20,7 @@ const Dropdown = ({ submenus, dropdown, depthLevel }) => {
               {submenus.map((submenu, index) => (
                 <div className="menu__wrapper" key={submenu.title + index}>
                   <h5>{submenu.title}</h5>
-                  <ul className="dropdownMenu">
+                  <ul className="dropdownMenu2">
                     {submenu.items.map((item) => (
                       <li
                         className="menu-items sub__sub__menu__items"
@@ -34,7 +34,7 @@ const Dropdown = ({ submenus, dropdown, depthLevel }) => {
                           />
                         ) : (
                           <Link href={item.path}>
-                            <a className={item.path == item.path ? "active" : ""}>{item.title}</a>
+                            <a exact className={item.path == item.path ? "active" : ""}>{item.title}</a>
                           </Link>
                         )}
                       </li>
