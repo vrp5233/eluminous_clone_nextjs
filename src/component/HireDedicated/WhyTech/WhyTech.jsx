@@ -60,7 +60,7 @@ const WhyTech = ({ whyTechData }) => {
                     className="img-fluid"
                     height={462}
                     width={565}
-                    priority={false}
+                    priority={true}
                   />
                   <List className="whiteBg d-flex flex-column justify-content-center">
                     {whyTechData.whyTechs.imgListTexts.map(
@@ -88,6 +88,7 @@ const WhyTech = ({ whyTechData }) => {
                         height={95}
                         // layout="fill"
                         layout="responsive"
+                        priority="true"
                       />
                     </div>
                     <CircleWrapper>

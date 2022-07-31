@@ -85,6 +85,7 @@ function Footer({ footerMenuDatas, xl, lg, md, sm }) {
                           width={130}
                           height={130}
                           layout="responsive"
+                          priority="true"
                           // layout="fill"
                         />
                       </a>
@@ -100,6 +101,7 @@ function Footer({ footerMenuDatas, xl, lg, md, sm }) {
                           alt="ITFirms-Top-App-Developers-USA"
                           width={130}
                           height={130}
+                          priority="true"
                           // layout="fill"
                         />
                       </a>
@@ -115,6 +117,7 @@ function Footer({ footerMenuDatas, xl, lg, md, sm }) {
                           alt="GoodFirms Badge"
                           width={130}
                           height={20}
+                          priority="true"
                           // layout="fill"
                         />
                       </a>
@@ -126,6 +129,7 @@ function Footer({ footerMenuDatas, xl, lg, md, sm }) {
                           alt="Gartner"
                           width={130}
                           height={45}
+                          priority="true"
                           // layout="fill"
                         />
                       </span>
@@ -143,6 +147,7 @@ function Footer({ footerMenuDatas, xl, lg, md, sm }) {
                           alt="DMCA.com Protection Status"
                           width={130}
                           height={24}
+                          priority="true"
                           // layout="fill"
                         />
                       </a>

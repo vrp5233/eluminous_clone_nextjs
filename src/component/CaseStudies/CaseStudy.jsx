@@ -23,6 +23,7 @@ const CaseStudy = ({ CaseStudyData }) => {
                   alt="Title"
                   className="w-100"
                   layout="fill"
+                  priority="true"
                 />
               </CaseImg>
               <CaseText>
@@ -37,7 +38,7 @@ const CaseStudy = ({ CaseStudyData }) => {
                   ParentClass="text-center mt-auto"
                   BtnTransparent={false}
                   target="_blank"
-                  linkUrl={CaseSudie.pdfLink}
+                  linkUrl={"/images/CaseStudies/" + `${CaseSudie.pdfLink}`}
                   titleText="Download PDF"
                   colorChange=""
                 />

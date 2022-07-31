@@ -249,11 +249,13 @@ export const NavigationWrapper = styled.header`
               color: #000;
               text-transform: uppercase;
               font-size: 18px;
+              margin: 0 0 20px 0;
               @media (max-width: ${({ theme }) => theme.media.ipad1199}) {
                 margin: 0 0 10px;
               }
             }
-            .dropdownMenu2 {
+            .dropdownMenu {
+              all: unset;
               @media (max-width: ${({ theme }) => theme.media.ipad1199}) {
                 display: block;
                 padding: 0;

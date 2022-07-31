@@ -139,7 +139,7 @@ export const HomePageData = {
       {
         id: "2",
         title: "What are the advantages of AngularJS?",
-        paragraph: null,
+        paragraph: "",
         ulLists: [
           {
             id: 1,

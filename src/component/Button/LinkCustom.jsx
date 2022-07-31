@@ -14,8 +14,8 @@ const LinkCustom = ({
 }) => {
   return (
     <BtnWrap BtnTransparent={BtnTransparent} className={`btn_wrap ${ParentClass}`}>
-      <Link href={linkUrl} className={`btn ${className}`} target={target}>
-        <a>
+      <Link href={linkUrl} className={`btn ${className}`} >
+        <a target={target}>
           {titleText}
           <CgArrowLongRight />
         </a>

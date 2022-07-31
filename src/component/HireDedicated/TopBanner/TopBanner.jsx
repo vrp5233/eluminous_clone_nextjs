@@ -115,11 +115,11 @@ const TopBanner = ({ allData }) => {
                   <p className="p-0">{allData.clutchReviewText}</p>
                 </ClutchReview>
                 <List>
-                  {allData.listMenus.map((listMenu, index) => {
+                  {allData.listMenus.map((listMenu, id) => {
                     return (
                       <li
                         className="d-flex justify-content-center align-items-center"
-                        key={listMenu.id}
+                        key={id}
                       >
                         <span className="d-flex flex-column">
                           <div className="icon">

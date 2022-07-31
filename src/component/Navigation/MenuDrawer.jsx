@@ -31,10 +31,7 @@ const MenuDrawer = () => {
         <CloseMenuButton onClick={toggleDrawer}>
           <VscChromeClose />
         </CloseMenuButton>
-        <Scrollbars
-          style={{ width: 350, height: 830 }}
-          autoHeight
-        >
+        <Scrollbars style={{ width: 350, height: 830 }} autoHeight>
           <MenuList />
         </Scrollbars>
       </Drawer>
