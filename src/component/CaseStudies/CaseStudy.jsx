@@ -22,8 +22,8 @@ const CaseStudy = ({ CaseStudyData }) => {
                   // src={`"/images/CaseStudies/" + $CaseSudie.image`}
                   alt="Title"
                   className="w-100"
-                  layout="fill"
-                  priority="true"
+                  layout="fill"                  
+                  priority={true}
                 />
               </CaseImg>
               <CaseText>

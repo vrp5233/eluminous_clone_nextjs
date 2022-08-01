@@ -88,7 +88,7 @@ const WhyTech = ({ whyTechData }) => {
                         height={95}
                         // layout="fill"
                         layout="responsive"
-                        priority="true"
+                        priority={true}
                       />
                     </div>
                     <CircleWrapper>

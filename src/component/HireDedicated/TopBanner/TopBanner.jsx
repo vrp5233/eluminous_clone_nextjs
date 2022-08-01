@@ -75,6 +75,7 @@ const TopBanner = ({ allData }) => {
                       width={89}
                       height={95}
                       // layout="fill"
+                      priority={true}
                       layout="responsive"
                     />
                   </div>
@@ -90,6 +91,7 @@ const TopBanner = ({ allData }) => {
                   width={624}
                   height={493}
                   layout="responsive"
+                  priority={true}
                 />
                 <ClutchReview>
                   <ClutchLogoRate className="d-flex align-items-center justify-content-between">

@@ -25,7 +25,7 @@ const Contact = () => {
                   // quality={100}
                   width={771}
                   height={927}
-                  priority="true"
+                  priority={true}
                 />
                 <TextBox></TextBox>
               </ImgBox>

@@ -69,7 +69,7 @@ const ReviewSlider = ({ ReviewSliderData }) => {
                                   alt="ITFirms-Top-App-Developers-USA"
                                   width={130}
                                   height={130}
-                                  priority="true"
+                                  priority={true}
                                 />
                               </Avtar>
                               <AvtarDetails className="nameDetailsWrap">
