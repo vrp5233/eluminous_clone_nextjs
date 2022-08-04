@@ -6,6 +6,7 @@ import HomeBanner from "../component/HomeBanner/HomeBanner";
 const HireDedicatedReact = () => {
   return (
     <>
+
       <HeadMeta allMeta={HomePageData} />
       <HomeBanner allData={HomePageData} />
     </>

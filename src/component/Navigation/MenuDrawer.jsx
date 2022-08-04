@@ -1,10 +1,10 @@
 import React from "react";
-import Drawer from "react-modern-drawer";
+// import Drawer from "react-modern-drawer";
 import { Scrollbars } from "react-custom-scrollbars";
 import { VscChromeClose } from "react-icons/vsc";
 import { FaBars } from "react-icons/fa";
 import MenuList from "./MenuList";
-import "react-modern-drawer/dist/index.css";
+// import "react-modern-drawer/dist/index.css";
 import {
   MobileMenuWrapper,
   OpenMenuButton,
@@ -17,7 +17,7 @@ const MenuDrawer = () => {
   };
   return (
     <MobileMenuWrapper>
-      <OpenMenuButton onClick={toggleDrawer}>
+      {/* <OpenMenuButton onClick={toggleDrawer}>
         <FaBars />
       </OpenMenuButton>
       <Drawer
@@ -34,7 +34,7 @@ const MenuDrawer = () => {
         <Scrollbars style={{ width: 350, height: 830 }} autoHeight>
           <MenuList />
         </Scrollbars>
-      </Drawer>
+      </Drawer> */}
     </MobileMenuWrapper>
   );
 };
