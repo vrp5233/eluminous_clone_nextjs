@@ -13,6 +13,8 @@ export const HomePageData = {
   btnText: "Get Started",
   imgSrc: "/images/HireDedicated/hire-angular-developers.png",
   imgAlt: "Hire Angular Developers",
+  imgLogo: "/images/HireDedicated/angular-img.png",
+  imgLogoAlt: "angular-img.png",
   clutchReviewText:
     "They had so far exceeded every of my expectations and i believe they will continue to do so.",
   listMenus: [

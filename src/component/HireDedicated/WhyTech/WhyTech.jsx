@@ -31,15 +31,15 @@ const WhyTech = ({ whyTechData }) => {
               <Col>
                 <TextWrapper>
                   <SmallTitle className="subTitle fw400 black">
-                    {whyTechData.whyTechs.subTitle}
+                    {whyTechData.subTitle}
                   </SmallTitle>
                   <Title
                     className="black fw700"
                     dangerouslySetInnerHTML={{
-                      __html: whyTechData.whyTechs.title,
+                      __html: whyTechData.title,
                     }}
                   ></Title>
-                  <Paragraph>{whyTechData.whyTechs.paragraph}</Paragraph>
+                  <Paragraph>{whyTechData.paragraph}</Paragraph>
                   <BlueParagraph className="btnTitle fw700 blue">
                     Let’s innovate together.
                   </BlueParagraph>
@@ -55,15 +55,15 @@ const WhyTech = ({ whyTechData }) => {
               <Col>
                 <ImgWrapper>
                   <Image
-                    src={whyTechData.whyTechs.imgSrc}
-                    alt={whyTechData.whyTechs.imgAlt}
+                    src={whyTechData.imgSrc}
+                    alt={whyTechData.imgAlt}
                     className="img-fluid"
                     height={462}
                     width={565}
                     priority={true}
                   />
                   <List className="whiteBg d-flex flex-column justify-content-center">
-                    {whyTechData.whyTechs.imgListTexts.map(
+                    {whyTechData.imgListTexts.map(
                       (imgListText, index) => {
                         return (
                           <li key={imgListText.text}>
@@ -81,8 +81,8 @@ const WhyTech = ({ whyTechData }) => {
                   <AniMationLogo>
                     <div className="logo d-flex justify-content-center align-items-center">
                       <Image
-                        src={whyTechData.whyTechs.imgLogo}
-                        alt={whyTechData.whyTechs.imgLogoAlt}
+                        src={whyTechData.imgLogo}
+                        alt={whyTechData.imgLogoAlt}
                         className="img-fluid"
                         width={89}
                         height={95}
@@ -102,7 +102,7 @@ const WhyTech = ({ whyTechData }) => {
             </Row>
             <BottomListWrapper>
               <Row>
-                {whyTechData.whyTechs.WhyTechLists.map((WhyTechList, index) => {
+                {whyTechData.WhyTechLists.map((WhyTechList, index) => {
                   return (
                     <Col xxl={3} className="d-flex" key={WhyTechList.icon}>
                       <div className="box whiteBg black">

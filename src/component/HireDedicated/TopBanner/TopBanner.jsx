@@ -4,16 +4,6 @@ import Image from "next/image";
 import { Container, Row, Col } from "react-bootstrap";
 import LinkCustom from "../../Button/LinkCustom";
 import { RiStarSFill } from "react-icons/ri";
-import * as Scroll from "react-scroll";
-import { BtnWrap } from "../../../styles/GlobalStyle.style";
-import {
-  Button,
-  Element,
-  Events,
-  animateScroll as scroll,
-  scrollSpy,
-  scroller,
-} from "react-scroll";
 
 import { AniMationLogo, CircleWrapper } from "../WhyTech/WhyTech.style";
 import {
@@ -50,7 +40,11 @@ const TopBanner = ({ allData }) => {
               ) : (
                 ""
               )}
-              <ParagraphWrap>{allData.paragraph}</ParagraphWrap>
+              <ParagraphWrap
+                dangerouslySetInnerHTML={{
+                  __html: allData.paragraph,
+                }}
+              ></ParagraphWrap>
               <LinkCustom
                 BtnTransparent={false}
                 linkUrl={allData.btnLink}
@@ -69,8 +63,8 @@ const TopBanner = ({ allData }) => {
                 <AniMationLogo HireDedicatedTopBanner={true}>
                   <div className="logo d-flex justify-content-center align-items-center">
                     <Image
-                      src={allData.whyTechs.imgLogo}
-                      alt={allData.whyTechs.imgLogoAlt}
+                      src={allData.imgLogo}
+                      alt={allData.imgLogoAlt}
                       className="img-fluid"
                       width={89}
                       height={95}

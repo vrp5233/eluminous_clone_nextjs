@@ -17,10 +17,10 @@ const Expertise = ({ expertiseData }) => {
     <>
       <ExpertiseWrapper className="black">
         <Container>
-          <HireTitle>{expertiseData.expertiseIns.title}</HireTitle>
-          <HireSmallTitle>{expertiseData.expertiseIns.subTitle}</HireSmallTitle>
+          <HireTitle>{expertiseData.title}</HireTitle>
+          <HireSmallTitle>{expertiseData.subTitle}</HireSmallTitle>
           <Row className="justify-content-center">
-            {expertiseData.expertiseIns.expertLists.map((expertList, index) => {
+            {expertiseData.expertLists.map((expertList, index) => {
               return (
                 <Col
                   xxl={3}

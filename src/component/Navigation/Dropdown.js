@@ -29,7 +29,7 @@ const Dropdown = ({ submenus, dropdown, depthLevel }) => {
                         {submenu.title === "FULL STACK" ? (
                           <LinkCustom
                             BtnTransparent={false}
-                            linkUrl="/about-us"
+                            linkUrl={item.path}
                             titleText={item.title}
                           />
                         ) : (

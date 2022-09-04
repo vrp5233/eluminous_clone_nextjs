@@ -1,8 +1,5 @@
 import React from "react";
-import { banner } from "../../data/hireDedicated/angularjs/banner";
-import { expertiseIns } from "../../data/hireDedicated/angularjs/expertise";
-import { whyTechs } from "../../data/hireDedicated/angularjs/whyTechs";
-import { faqs } from "../../data/hireDedicated/angularjs/faqs";
+import { HireAngularData } from "../../data/hireDedicated/angular";
 import { HireReviewData } from "../../data/hireDedicated/review";
 import { HireCaseStudiesData } from "../../data/hireDedicated/caseStudies";
 import HeadMeta from "../../component/Navigation/HeadMeta";
@@ -16,13 +13,13 @@ import Contact from "../../component/HireDedicated/Contact/Contact";
 const HireDedicatedAngular = () => {
   return (
     <>
-      <HeadMeta allMeta={banner} />
-      <TopBanner allData={banner} />
-      <Expertise expertiseData={expertiseIns} />
-      <WhyTech whyTechData={whyTechs} />
+      <HeadMeta allMeta={HireAngularData} />
+      <TopBanner allData={HireAngularData} />
+      <Expertise expertiseData={HireAngularData} />
+      <WhyTech whyTechData={HireAngularData} />
       <ReviewSlider ReviewSliderData={HireReviewData} />
       <CaseStudies CaseStudyData={HireCaseStudiesData} />
-      <Faq faqsData={faqs} />
+      <Faq faqsData={HireAngularData} />
       <Contact />
     </>
   );

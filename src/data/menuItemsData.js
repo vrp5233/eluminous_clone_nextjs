@@ -50,7 +50,7 @@ export const menuItemsData = [
             path: "/front-end-development",
           },
           {
-            title: "Data Analytics &amp; BI",
+            title: "Data Analytics & BI",
             path: "/data-analytics-and-bi",
           },
           {
@@ -71,7 +71,7 @@ export const menuItemsData = [
   },
   {
     title: "Hire Dedicated Developer",
-    path: "/hire-dedicated-developer",
+    path: "/",
     megaMenu: "1",
     submenu: [
       {
@@ -160,7 +160,7 @@ export const menuItemsData = [
       },
       {
         title: "FULL STACK",
-        path: "/hire-dedicated-developer",
+        path: "/",
         items: [
           {
             title: "Hire Dedicated Developers",

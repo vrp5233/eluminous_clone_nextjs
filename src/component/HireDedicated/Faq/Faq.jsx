@@ -12,7 +12,7 @@ const Faq = ({ faqsData }) => {
         <Container>
           <HireTitle className="text-center">FAQ&rsquo;s</HireTitle>
           <Accordion defaultActiveKey="0">
-            {faqsData.faqs.faqLists.map((faq, id) => {
+            {faqsData.faqLists.map((faq, id) => {
               return (
                 <Accordion.Item eventKey={faq.id} key={id}>
                   <Accordion.Header>

@@ -1,5 +1,7 @@
 import { CgArrowLongRight } from "react-icons/cg";
-import { BtnWrap } from "./ButtonCustom.style.js";
+import { BtnWrap } from "../../styles/GlobalStyle.style.jsx";
+// import { BtnWrap } from "./ButtonCustom.style.js";
+
 // import './Button.css'
 
 // className={`btn ${colorChange}`}
