@@ -5,7 +5,7 @@ const Document = () => {
     <Html lang="en">
       <Head>
         <meta content="text/html; charset=utf-8" />
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        {/* <meta name="viewport" content="initial-scale=1.0, width=device-width" /> */}
         <meta
           name="description"
           content="Hire Angular Developers to have seamless visulizations across all devices and help you to build high performace scalable apps to enhance productivity by 70%."
