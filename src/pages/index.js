@@ -1,6 +1,6 @@
 import Head from "next/head";
 import HomePage from "./HomePage";
-import Demo from "./demo";
+// import Demo from "./demo";
 
 export default function Home() {
   return (
@@ -9,7 +9,7 @@ export default function Home() {
         <title>Web Design & Development Company - eLuminous Technologies</title>
       </Head>
       <HomePage />
-      <Demo />
+      {/* <Demo /> */}
     </>
   );
 }
