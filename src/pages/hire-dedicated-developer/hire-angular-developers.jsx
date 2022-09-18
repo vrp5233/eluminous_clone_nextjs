@@ -17,7 +17,7 @@ const HireDedicatedAngular = () => {
   return (
     <>
       <HeadMeta allMeta={banner} />
-      <TopBanner allData={banner} />
+      <TopBanner allData={banner} />/
       <Expertise expertiseData={expertiseIns} />
       <WhyTech whyTechData={whyTechs} />
       <ReviewSlider ReviewSliderData={HireReviewData} />
