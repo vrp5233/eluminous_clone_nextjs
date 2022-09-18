@@ -86,6 +86,7 @@ export const ItFirms = styled.div``;
 export const GoodFirms = styled.div`
   max-width: 210px;
   margin: 0 auto;
+  display: block;
 `;
 export const Gartner = styled.div`
   margin-bottom: 0;

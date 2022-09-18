@@ -24,6 +24,8 @@ export const ExpertiseBox = styled.div`
   span {
     margin-bottom: 20px;
     display: inline-block;
+      max-width: 80px;
+      width: 100%;
     img,
     object {
       max-width: 80px;

@@ -116,6 +116,10 @@ export const menuItemsData = [
             title: "Hire Flutter Developers",
             path: "/hire-dedicated-developer/hire-flutter-developers",
           },
+          {
+            title: "Hire React Native Developers",
+            path: "/hire-dedicated-developer/hire-react-native-developers",
+          },
         ],
       },
       {

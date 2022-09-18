@@ -21,17 +21,17 @@ export const HomePageData = {
     {
       id: 1,
       title: "Cross Platform",
-      img: "/images/HireDedicated/icons/cross-platform.svg",
+      img: "/images/HireDedicated/icons/cross-platform.png",
     },
     {
       id: 2,
       title: "Speed & Performance",
-      img: "/images/HireDedicated/icons/speed-&-performance.svg",
+      img: "/images/HireDedicated/icons/speed-&-performance.png",
     },
     {
       id: 3,
       title: "User friendly",
-      img: "/images/HireDedicated/icons/user-friendly.svg",
+      img: "/images/HireDedicated/icons/user-friendly.png",
     },
   ],
   expertiseIns: {
@@ -41,27 +41,27 @@ export const HomePageData = {
     expertLists: [
       {
         expertImage:
-          "/images/HireDedicated/icons/custom-angular-development.svg",
+          "/images/HireDedicated/icons/custom-angular-development.png",
         expertTitle: "Custom Angular <br/>Development",
         expertSubTitle:
           "Hire dedicated angular developers who are expert in creating clean and interactive UI/UX to build credibility and flawless user-experience across all devices. We create real time apps like Chat Apps and Insant Messengers with AngularFire or Socket.",
       },
       {
         expertImage:
-          "/images/HireDedicated/icons/enterprise-angular-web-apps.svg",
+          "/images/HireDedicated/icons/enterprise-angular-web-apps.png",
         expertTitle: "Enterprise Angular <br/>Web Apps",
         expertSubTitle:
           "Our angularjs developers build large-scale web applications by providing end-to-end services right from consulting, development, migration, maintenance to upgradation. We offer advanced Angular API services as per specific business needs.",
       },
       {
-        expertImage: "/images/HireDedicated/icons/angular-consulting.svg",
+        expertImage: "/images/HireDedicated/icons/angular-consulting.png",
         expertTitle: "Angular <br />Consulting",
         expertSubTitle:
           "Our angular developers and consultants can help you in organizing your Angular project structure using TypeScripts, Angular CLI, managing environment-specific settings and many more.",
       },
       {
         expertImage:
-          "/images/HireDedicated/icons/updated-with-technology-trends.svg",
+          "/images/HireDedicated/icons/updated-with-technology-trends.png",
         expertTitle: "Updated with<br/>Technology Trends",
         expertSubTitle:
           "Angular developers use <b>SSR</b> to make your app <b>SEO</b> friendly and help you to be visible in Google's eye.",
@@ -91,24 +91,24 @@ export const HomePageData = {
     WhyTechLists: [
       {
         title: "Trusted by People <br />Like You!",
-        icon: "/images/HireDedicated/icons/trusted-by-people-like-you.svg",
+        icon: "/images/HireDedicated/icons/trusted-by-people-like-you.png",
         paragraph:
           "Best UI Winner and many 5 Star Reviews on <b>Clutch, GoodFirms, Google.</b>",
       },
       {
         title: "API-On-Top <br />Approach",
-        icon: "/images/HireDedicated/icons/api-on-top-approach.svg",
+        icon: "/images/HireDedicated/icons/api-on-top-approach.png",
         paragraph: "We build exclusive front-end without hampering backend.",
       },
       {
         title: "100% Tested<br />Process",
-        icon: "/images/HireDedicated/icons/tested-process.svg",
+        icon: "/images/HireDedicated/icons/tested-process.png",
         paragraph:
           "We use manual and automated testing having multiple real in-house devices.",
       },
       {
         title: "SEO-friendly <br />Apps",
-        icon: "/images/HireDedicated/icons/seo-friendly-apps.svg",
+        icon: "/images/HireDedicated/icons/seo-friendly-apps.png",
         paragraph:
           "Angular developers use SSR to make your app SEO friendly and help you to be visible in Google's eye.",
       },

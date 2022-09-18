@@ -141,7 +141,8 @@ export const BottomListWrapper = styled.div`
     padding: 35px;
     span {
       margin: 0 0 33px;
-      display: inline-block;
+      display: block;
+      max-width: 60px;
     }
     .title {
       font: 22px / 25px var(--inter);

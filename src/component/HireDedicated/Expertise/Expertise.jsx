@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import { Container, Row, Col } from "react-bootstrap";
 import LinkCustom from "../../Button/LinkCustom";
 // import { Title } from "../WhyTech/WhyTech.style";
@@ -31,13 +32,23 @@ const Expertise = ({ expertiseData }) => {
                   key={expertList.expertTitle}
                 >
                   <ExpertiseBox>
-                    <span>
-                      <object
+                    <span className="d-block img">
+                      {/* <object
                         data={expertList.expertImage}
                         type="image/svg+xml"
                       >
                         {expertList.title}
-                      </object>
+                      </object> */}
+
+                      <Image
+                        src={expertList.expertImage}
+                        className="w-100"
+                        alt="Clutch"
+                        width={80}
+                        height={80}
+                        layout="responsive"
+                        priority={true}
+                      />
                       {/* <img
                         src={expertList.expertImage}
                         alt="Title"

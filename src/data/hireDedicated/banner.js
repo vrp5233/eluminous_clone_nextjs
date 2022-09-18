@@ -21,17 +21,17 @@ export const banner = {
     {
       id: 1,
       title: "Cross Platform",
-      img: "/images/HireDedicated/icons/cross-platform.svg",
+      img: "/images/HireDedicated/icons/cross-platform.png",
     },
     {
       id: 2,
       title: "Speed & Performance",
-      img: "/images/HireDedicated/icons/speed-&-performance.svg",
+      img: "/images/HireDedicated/icons/speed-&-performance.png",
     },
     {
       id: 3,
       title: "User friendly",
-      img: "/images/HireDedicated/icons/user-friendly.svg",
+      img: "/images/HireDedicated/icons/user-friendly.png",
     },
   ],
 };

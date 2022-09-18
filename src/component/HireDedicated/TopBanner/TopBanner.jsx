@@ -119,11 +119,20 @@ const TopBanner = ({ allData }) => {
                       >
                         <span className="d-flex flex-column">
                           <div className="icon">
-                            <object
+                            {/* <object
                               data={listMenu.img}
                               className="w-100"
                               width={61}
                               height={50}
+                            /> */}
+                            <Image
+                              src={listMenu.img}
+                              className="w-100"
+                              alt="Clutch"
+                              width={61}
+                              height={50}
+                              layout="responsive"
+                              priority={true}
                             />
                           </div>
                           <div className="text fw600 black p-0">

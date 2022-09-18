@@ -23,26 +23,29 @@ export const whyTechs = {
     WhyTechLists: [
       {
         title: "Trusted by People <br />Like You!",
-        icon: "/images/HireDedicated/icons/trusted-by-people-like-you.svg",
+        icon: "/images/HireDedicated/icons/trusted-by-people-like-you.png",
         paragraph:
           "Best UI Winner and many 5 Star Reviews on <b>Clutch, GoodFirms, Google.</b>",
       },
       {
         title: "API-On-Top <br />Approach",
-        icon: "/images/HireDedicated/icons/api-on-top-approach.svg",
+        icon: "/images/HireDedicated/icons/api-on-top-approach.png",
         paragraph: "We build exclusive front-end without hampering backend.",
       },
       {
         title: "100% Tested<br />Process",
-        icon: "/images/HireDedicated/icons/tested-process.svg",
+        icon: "/images/HireDedicated/icons/tested-process.png",
         paragraph:
           "We use manual and automated testing having multiple real in-house devices.",
       },
       {
         title: "SEO-friendly <br />Apps",
-        icon: "/images/HireDedicated/icons/seo-friendly-apps.svg",
+        icon: "/images/HireDedicated/icons/seo-friendly-apps.png",
         paragraph:
           "Angular developers use SSR to make your app SEO friendly and help you to be visible in Google's eye.",
       },
     ],
 };
+
+
+

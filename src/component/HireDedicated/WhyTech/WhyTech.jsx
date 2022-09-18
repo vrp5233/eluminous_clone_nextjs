@@ -63,20 +63,18 @@ const WhyTech = ({ whyTechData }) => {
                     priority={true}
                   />
                   <List className="whiteBg d-flex flex-column justify-content-center">
-                    {whyTechData.imgListTexts.map(
-                      (imgListText, index) => {
-                        return (
-                          <li key={imgListText.text}>
-                            <IoIosCheckmarkCircleOutline className="black3" />
-                            <span
-                              dangerouslySetInnerHTML={{
-                                __html: imgListText.text,
-                              }}
-                            ></span>
-                          </li>
-                        );
-                      }
-                    )}
+                    {whyTechData.imgListTexts.map((imgListText, index) => {
+                      return (
+                        <li key={imgListText.text}>
+                          <IoIosCheckmarkCircleOutline className="black3" />
+                          <span
+                            dangerouslySetInnerHTML={{
+                              __html: imgListText.text,
+                            }}
+                          ></span>
+                        </li>
+                      );
+                    })}
                   </List>
                   <AniMationLogo>
                     <div className="logo d-flex justify-content-center align-items-center">
@@ -107,11 +105,21 @@ const WhyTech = ({ whyTechData }) => {
                     <Col xxl={3} className="d-flex" key={WhyTechList.icon}>
                       <div className="box whiteBg black">
                         <span>
-                          <object
+                          {/* <object
                             data={WhyTechList.icon}
                             className="w-100"
                             width={65}
                             height={70}
+                          /> */}
+
+                          <Image
+                            src={WhyTechList.icon}
+                            className="w-100"
+                            alt="Clutch"
+                            width={60}
+                            height={60}
+                            layout="responsive"
+                            priority={true}
                           />
                         </span>
                         <h3

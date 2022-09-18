@@ -40,7 +40,7 @@ const Navigation = () => {
             <Link href="/">
               <a>
                 <Image
-                  src="/images/eluminous-pvt-ltd_black.svg"
+                  src="/images/eluminous-pvt-ltd_black.png"
                   alt="eLuminous Logo"
                   width={224}
                   height={45}
