@@ -1,6 +1,6 @@
 import React from "react";
 import Base from "../../core/Base";
-const HireDedicatedDeveloper = () => {
+const HireWordPressDeveloper = () => {
   return (
     <Base>
       <h1>Hire WordPress Developer</h1>
@@ -8,4 +8,4 @@ const HireDedicatedDeveloper = () => {
   );
 };
 
-export default HireDedicatedDeveloper;
+export default HireWordPressDeveloper;

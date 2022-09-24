@@ -71,6 +71,7 @@ const TopBanner = ({ allData }) => {
                       // layout="fill"
                       priority={true}
                       layout="responsive"
+                      sizes="320 640 750"
                     />
                   </div>
                   <CircleWrapper>

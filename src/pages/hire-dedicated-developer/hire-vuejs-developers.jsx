@@ -1,6 +1,6 @@
 import React from "react";
 import Base from "../../core/Base";
-const HireDedicatedDeveloper = () => {
+const HireVueJSDeveloper = () => {
   return (
     <Base>
       <h1>Hire VueJS Developer</h1>
@@ -8,4 +8,4 @@ const HireDedicatedDeveloper = () => {
   );
 };
 
-export default HireDedicatedDeveloper;
+export default HireVueJSDeveloper;

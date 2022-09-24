@@ -1,6 +1,6 @@
 import React from "react";
 import Base from "../../core/Base";
-const HireDedicatedDeveloper = () => {
+const HireAndroidDeveloper = () => {
   return (
     <Base>
       <h1>Hire Android Developers</h1>
@@ -8,4 +8,4 @@ const HireDedicatedDeveloper = () => {
   );
 };
 
-export default HireDedicatedDeveloper;
+export default HireAndroidDeveloper;
