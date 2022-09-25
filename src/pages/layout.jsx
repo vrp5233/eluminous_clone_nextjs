@@ -4,6 +4,7 @@ import GlobalStyles from "../styles/GlobalStyle.style";
 import PreLoader from "../component/PreLoader";
 import Navigation from "../component/Navigation/Navigation";
 import Footer from "../component/Footer/Footer";
+import GoToBtn from "../component/GoToBtn/GoToBtn";
 
 const Layout = ({ children }) => {
   return (
@@ -14,6 +15,7 @@ const Layout = ({ children }) => {
         <Navigation />
         <main>{children}</main>
         <Footer />
+        <GoToBtn />
       </ThemeProvider>
     </>
   );

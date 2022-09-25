@@ -13,12 +13,14 @@ import ReviewSlider from "../../component/HireDedicated/ReviewSlider/ReviewSlide
 import CaseStudies from "../../component/CaseStudies/CaseStudies";
 import Faq from "../../component/HireDedicated/Faq/Faq";
 import Contact from "../../component/HireDedicated/Contact/Contact";
+import ComparativeAnalysis from "../../component/HireDedicated/ComparativeAnalysis/ComparativeAnalysis";
 const HireDedicatedAngular = () => {
   return (
     <>
       <HeadMeta allMeta={banner} />
       <TopBanner allData={banner} />/
       <Expertise expertiseData={expertiseIns} />
+      <ComparativeAnalysis />
       <WhyTech whyTechData={whyTechs} />
       <ReviewSlider ReviewSliderData={HireReviewData} />
       <CaseStudies CaseStudyData={HireCaseStudiesData} />

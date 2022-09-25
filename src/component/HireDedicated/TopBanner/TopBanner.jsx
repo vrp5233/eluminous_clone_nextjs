@@ -1,4 +1,3 @@
-import Link from "next/link";
 import React from "react";
 import Image from "next/image";
 import { Container, Row, Col } from "react-bootstrap";
@@ -130,9 +129,9 @@ const TopBanner = ({ allData }) => {
                               src={listMenu.img}
                               className="w-100"
                               alt="Clutch"
-                              width={61}
-                              height={50}
-                              layout="responsive"
+                              width={60}
+                              height={60}
+                              layout="fixed"
                               priority={true}
                             />
                           </div>
