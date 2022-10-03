@@ -4,13 +4,13 @@ import Link from "next/link";
 import { Col } from "react-bootstrap";
 import { Wrap, Heading, LinkList } from "./Footer.style";
 
-function FooterLinks({ footerMenuDatas, xl, lg, md, sm }) {
+function FooterLinks({ footerMenusDatas, xl, lg, md, sm }) {
   return (
     <Col xl={xl} lg={lg} md={md} sm={sm}>
       <Wrap>
-        <Heading>{footerMenuDatas.title}</Heading>
+        <Heading>{footerMenusDatas.title}</Heading>
         <LinkList>
-          {footerMenuDatas.menus.map((menu, index) => {
+          {footerMenusDatas.footerMenus.map((menu, path) => {
             return (
               <li key={menu.path}>
                 <Link href={menu.path}>

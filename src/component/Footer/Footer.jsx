@@ -29,6 +29,7 @@ import {
   footerServicesMenus,
   footerhireDedicatedMenus,
   footerknowMoreMenus,
+  footerMenusDatas
 } from "../../data/FooterMenuData";
 
 function Footer({ footerMenuDatas, xl, lg, md, sm }) {
@@ -38,14 +39,23 @@ function Footer({ footerMenuDatas, xl, lg, md, sm }) {
         <Container>
           <GreyWrapper>
             <Row className="justify-content-center">
-              <FooterLinks
+              {footerMenusDatas.footerMenus.map((item) => (
+                <FooterLinks
+                  xl={2}
+                  lg={3}
+                  md={4}
+                  sm={6}
+                  footerMenuDatas={footerMenusDatas}
+                />
+              ))}
+              {/* <FooterLinks
                 xl={2}
                 lg={3}
                 md={4}
                 sm={6}
                 footerMenuDatas={footerServicesMenus}
-              />
-              <FooterLinks
+              /> */}
+              {/* <FooterLinks
                 xl={3}
                 lg={3}
                 md={4}
@@ -58,7 +68,7 @@ function Footer({ footerMenuDatas, xl, lg, md, sm }) {
                 md={4}
                 sm={3}
                 footerMenuDatas={footerknowMoreMenus}
-              />
+              /> */}
               <Col xl={3} lg={3} md={12} sm={9}>
                 <Wrap>
                   <Heading>Our Esteemed Partners</Heading>

@@ -76,7 +76,7 @@ export const menuItemsData = [
     submenu: [
       {
         title: "BACKEND",
-        path: "/",
+        path: "/hire-dedicated-developer/hire-backend-developers",
         items: [
           {
             title: "Hire PHP Developers",
@@ -98,7 +98,7 @@ export const menuItemsData = [
       },
       {
         title: "MOBILE",
-        path: "/hire-dedicated-developer/hire-ios-developers",
+        path: "",
         items: [
           {
             title: "Hire iOS Developers",
@@ -142,7 +142,7 @@ export const menuItemsData = [
       },
       {
         title: "CMS",
-        path: "/hire-dedicated-developer/hire-wordpress-developers",
+        path: "",
         items: [
           {
             title: "Hire WordPress Developers",
@@ -164,7 +164,7 @@ export const menuItemsData = [
       },
       {
         title: "FULL STACK",
-        path: "/",
+        path: "/hire-dedicated-developer/hire-fullstack-developers",
         items: [
           {
             title: "Hire Dedicated Developers",

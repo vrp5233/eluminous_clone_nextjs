@@ -250,6 +250,14 @@ export const NavigationWrapper = styled.header`
               text-transform: uppercase;
               font-size: 18px;
               margin: 0 0 20px 0;
+              a {
+                all: unset;
+                cursor: pointer;
+                transition: all 0.3s;
+                &:hover {
+                  color: rgba(var(--blue));
+                }
+              }
               @media (max-width: ${({ theme }) => theme.media.ipad1199}) {
                 margin: 0 0 10px;
               }
