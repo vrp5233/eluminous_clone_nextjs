@@ -29,25 +29,26 @@ import {
   footerServicesMenus,
   footerhireDedicatedMenus,
   footerknowMoreMenus,
-  footerMenusDatas
+  footerMenuDatas
+  
 } from "../../data/FooterMenuData";
 
-function Footer({ footerMenuDatas, xl, lg, md, sm }) {
+function Footer({ footerMenusDatasProps, xl, lg, md, sm }) {
   return (
     <>
       <FooterWrapper>
         <Container>
           <GreyWrapper>
             <Row className="justify-content-center">
-              {footerMenusDatas.footerMenus.map((item) => (
+              {/* {footerMenusData.footerMenus.map((item) => ( */}
                 <FooterLinks
                   xl={2}
                   lg={3}
                   md={4}
                   sm={6}
-                  footerMenuDatas={footerMenusDatas}
+                  footerMenusDatasProps={footerMenuDatas}
                 />
-              ))}
+              {/* // ))} */}
               {/* <FooterLinks
                 xl={2}
                 lg={3}
@@ -69,7 +70,104 @@ function Footer({ footerMenuDatas, xl, lg, md, sm }) {
                 sm={3}
                 footerMenuDatas={footerknowMoreMenus}
               /> */}
-              <Col xl={3} lg={3} md={12} sm={9}>
+              <Col xl={8} lg={12} md={12} sm={12}>
+                <Wrap>
+                  <Heading>Contact</Heading>
+                  <CompanyInfo>
+                    <li>
+                      <IoLocationSharp />
+                      IT Park-29/7, Ambad Industrial Area, Maharashtra, India - 422010
+                    </li>
+                    <li>
+                      <IoMdCall />
+                      <a
+                        href="tel:912532382566"
+                        id="phone-contact-number"
+                        data-ccw="phone-contact-number"
+                      >
+                        +91 253 238 2566 ,
+                      </a>
+                      <a href="tel:918208222939">+91 8208222939</a>
+                    </li>
+                  </CompanyInfo>
+                  <CompanyMail>
+                    <Mail>
+                      <b>Web Application Development</b>
+                      <ul>
+                        <li>
+                          <a
+                            href="mailto:sales@eluminoustechnologies.com"
+                            id="mail-contact"
+                            data-ccw="mail-contact"
+                          >
+                            <MdEmail />
+                            sales@eluminoustechnologies.com
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="skype:eluminoustechnologies?chat"
+                            id="skype-contact"
+                            data-ccw="skype-contact"
+                          >
+                            <AiFillSkype />
+                            eluminoustechnologies
+                          </a>
+                        </li>
+                      </ul>
+                    </Mail>
+                    <DigitalVirtual>
+                      <Mail>
+                        <b>Digital Marketing</b>
+                        <li>
+                          <a
+                            href="mailto:sam@eluminoustechnologies.com"
+                            id="mail-contact"
+                            data-ccw="mail-contact"
+                          >
+                            <MdEmail />
+                            sam@eluminoustechnologies.com
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="skype:el_sysadmin?chat"
+                            id="skype-contact"
+                            data-ccw="skype-contact"
+                          >
+                            <AiFillSkype />
+                            DM_BDM
+                          </a>
+                        </li>
+                      </Mail>
+                      <Mail>
+                        <b>Virtual Assistance</b>
+                        <li>
+                          <a
+                            href="mailto:sales@eluminousva.com"
+                            id="mail-contact"
+                            data-ccw="mail-contact"
+                          >
+                            <MdEmail />
+                            sales@eluminousva.com{" "}
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="skype:cid.d0af7eb429b962d6?chat"
+                            id="skype-contact"
+                            data-ccw="skype-contact"
+                          >
+                            <AiFillSkype />
+                            VA_BDM
+                          </a>
+                        </li>
+                      </Mail>
+                    </DigitalVirtual>
+                  </CompanyMail>
+                </Wrap>
+              </Col>
+              <Col xl={4} lg={12} md={12} sm={12}>
                 <Wrap>
                   <Heading>Our Esteemed Partners</Heading>
                   <FooterLogoWrapper className="footer-logos-wrapper">
@@ -163,104 +261,6 @@ function Footer({ footerMenuDatas, xl, lg, md, sm }) {
                       </a>
                     </Dmca>
                   </FooterLogoWrapper>
-                </Wrap>
-              </Col>
-              <Col xl={10} lg={12} md={12} sm={12}>
-                <Wrap>
-                  <Heading>Contact</Heading>
-                  <CompanyInfo>
-                    <li>
-                      <IoLocationSharp />
-                      IT Park-29/7, Near Power House, MIDC Ambad, Ambad
-                      Industrial Area, Nashik, Maharashtra, India - 422010
-                    </li>
-                    <li>
-                      <IoMdCall />
-                      <a
-                        href="tel:912532382566"
-                        id="phone-contact-number"
-                        data-ccw="phone-contact-number"
-                      >
-                        +91 253 238 2566 ,
-                      </a>
-                      <a href="tel:918208222939">+91 8208222939</a>
-                    </li>
-                  </CompanyInfo>
-                  <CompanyMail>
-                    <Mail>
-                      <b>Web Application Development</b>
-                      <ul>
-                        <li>
-                          <a
-                            href="mailto:sales@eluminoustechnologies.com"
-                            id="mail-contact"
-                            data-ccw="mail-contact"
-                          >
-                            <MdEmail />
-                            sales@eluminoustechnologies.com
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            href="skype:eluminoustechnologies?chat"
-                            id="skype-contact"
-                            data-ccw="skype-contact"
-                          >
-                            <AiFillSkype />
-                            eluminoustechnologies
-                          </a>
-                        </li>
-                      </ul>
-                    </Mail>
-                    <DigitalVirtual>
-                      <Mail>
-                        <b>Digital Marketing</b>
-                        <li>
-                          <a
-                            href="mailto:sam@eluminoustechnologies.com"
-                            id="mail-contact"
-                            data-ccw="mail-contact"
-                          >
-                            <MdEmail />
-                            sam@eluminoustechnologies.com
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            href="skype:el_sysadmin?chat"
-                            id="skype-contact"
-                            data-ccw="skype-contact"
-                          >
-                            <AiFillSkype />
-                            DM_BDM
-                          </a>
-                        </li>
-                      </Mail>
-                      <Mail>
-                        <b>Virtual Assistance</b>
-                        <li>
-                          <a
-                            href="mailto:sales@eluminousva.com"
-                            id="mail-contact"
-                            data-ccw="mail-contact"
-                          >
-                            <MdEmail />
-                            sales@eluminousva.com{" "}
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            href="skype:cid.d0af7eb429b962d6?chat"
-                            id="skype-contact"
-                            data-ccw="skype-contact"
-                          >
-                            <AiFillSkype />
-                            VA_BDM
-                          </a>
-                        </li>
-                      </Mail>
-                    </DigitalVirtual>
-                  </CompanyMail>
                 </Wrap>
               </Col>
             </Row>

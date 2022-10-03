@@ -106,7 +106,7 @@ export const footerknowMoreMenus = {
   ],
 };
 
-export const footerMenusDatas = {
+export const footerMenuDatas = {
   footerMenus: [
     {
       title: "Services",

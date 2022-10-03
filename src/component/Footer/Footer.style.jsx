@@ -12,7 +12,9 @@ export const GreyWrapper = styled.div`
     }
   }
 `;
-export const Wrap = styled.div``;
+export const Wrap = styled.div`
+  margin-bottom: 40px;
+`;
 export const Heading = styled.h6`
   font-size: 16px;
   color: rgba(var(--black));

@@ -4,26 +4,36 @@ import Link from "next/link";
 import { Col } from "react-bootstrap";
 import { Wrap, Heading, LinkList } from "./Footer.style";
 
-function FooterLinks({ footerMenusDatas, xl, lg, md, sm }) {
+function FooterLinks({ footerMenusDatasProps, xl, lg, md, sm }) {
   return (
-    <Col xl={xl} lg={lg} md={md} sm={sm}>
-      <Wrap>
-        <Heading>{footerMenusDatas.title}</Heading>
-        <LinkList>
-          {footerMenusDatas.footerMenus.map((menu, path) => {
-            return (
-              <li key={menu.path}>
-                <Link href={menu.path}>
-                  <a dangerouslySetInnerHTML={{
-                      __html: menu.title,
-                    }}></a>
-                </Link>
-              </li>
-            );
-          })}
-        </LinkList>
-      </Wrap>
-    </Col>
+    <>
+      {footerMenusDatasProps.footerMenus.map((footerMenu, path) => {
+        return (
+          <>
+            <Col xl={xl} lg={lg} md={md} sm={sm}>
+              <Wrap>
+                <Heading>{footerMenu.title}</Heading>
+                <LinkList>
+                  {footerMenu.items.map((menu, path) => {
+                    return (
+                      <li key={path}>
+                        <Link href={menu.path}>
+                          <a
+                            dangerouslySetInnerHTML={{
+                              __html: menu.title,
+                            }}
+                          ></a>
+                        </Link>
+                      </li>
+                    );
+                  })}
+                </LinkList>
+              </Wrap>
+            </Col>
+          </>
+        );
+      })}
+    </>
   );
 }
 
