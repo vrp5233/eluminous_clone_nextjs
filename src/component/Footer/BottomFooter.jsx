@@ -17,7 +17,7 @@ export const BottomeFooter = (props) => {
       <BottomFooter>
         <Container>
           <Row className="justify-content-center">
-            <Col xxl={5}>
+            <Col xxl={6}>
               <FooterSocialLinks>
                 <li className="facebook">
                   <a href="#" target="_blank">
@@ -41,7 +41,7 @@ export const BottomeFooter = (props) => {
                 </li>
               </FooterSocialLinks>
             </Col>
-            <Col xxl={5} className="text-right">
+            <Col xxl={6} className="text-right">
               <Copyright>
                 <a
                   href="https://eluminoustechnologies.com"

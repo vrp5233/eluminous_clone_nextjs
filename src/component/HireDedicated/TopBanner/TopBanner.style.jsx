@@ -2,10 +2,10 @@ import styled from "styled-components";
 
 export const HireDedicatedBannerWrapper = styled.section`
   padding: 120px 0;
-  @media (max-width: ${({ theme }) => theme.media.deskstop1600}) {
+  @media (max-width: ${({ theme }) => theme.media.deskstop1}) {
     padding: 80px 0;
   }
-  @media (max-width: ${({ theme }) => theme.media.deskstop1440}) {
+  @media (max-width: ${({ theme }) => theme.media.deskstop2}) {
     padding: 60px 0 100px;
   }
 `;
@@ -13,10 +13,10 @@ export const HireDedicatedBannerWrapper = styled.section`
 export const TitleWrap = styled.h1`
   font: 900 90px/95px var(--inter);
   margin-bottom: 39px;
-  @media (max-width: ${({ theme }) => theme.media.deskstop1600}) {
+  @media (max-width: ${({ theme }) => theme.media.deskstop1}) {
     font: 900 82px/95px var(--inter);
   }
-  @media (max-width: ${({ theme }) => theme.media.deskstop1440}) {
+  @media (max-width: ${({ theme }) => theme.media.deskstop2}) {
     font: 900 68px/82px var(--inter);
   }
 `;
@@ -24,10 +24,10 @@ export const TitleWrap = styled.h1`
 export const SmallTitleWrap = styled.h2`
   font: 700 30px / normal var(--inter);
   margin-bottom: 65px;
-  @media (max-width: ${({ theme }) => theme.media.deskstop1600}) {
+  @media (max-width: ${({ theme }) => theme.media.deskstop1}) {
     font: 700 26px / normal var(--inter);
   }
-  @media (max-width: ${({ theme }) => theme.media.deskstop1440}) {
+  @media (max-width: ${({ theme }) => theme.media.deskstop2}) {
     font: 700 22px / normal var(--inter);
     margin-bottom: 46px;
   }
@@ -37,11 +37,11 @@ export const ParagraphWrap = styled.p`
   font: 400 24px/38px var(--inter);
   margin: 0 0 77px 0;
   max-width: 780px;
-  @media (max-width: ${({ theme }) => theme.media.deskstop1600}) {
+  @media (max-width: ${({ theme }) => theme.media.deskstop1}) {
     font: 400 20px/34px var(--inter);
     margin: 0 0 65px 0;
   }
-  @media (max-width: ${({ theme }) => theme.media.deskstop1440}) {
+  @media (max-width: ${({ theme }) => theme.media.deskstop2}) {
     font: 400 18px/30px var(--inter);
     margin: 0 0 45px 0;
   }
@@ -59,7 +59,7 @@ export const ImgWrapper = styled.div`
     right: 20%;
     top: 0;
   } */
-  @media (max-width: ${({ theme }) => theme.media.deskstop1440}) {
+  @media (max-width: ${({ theme }) => theme.media.deskstop2}) {
     padding: 0 90px 0 0;
   }
 `;
@@ -71,10 +71,10 @@ export const ClutchReview = styled.div`
   width: 291px;
   height: 156px;
   position: absolute;
-  right: -5px;
+  right: 5px;
   top: 200px;
   padding: 15px 15px;
-  @media (max-width: ${({ theme }) => theme.media.deskstop1440}) {
+  @media (max-width: ${({ theme }) => theme.media.deskstop2}) {
     transform: scale(0.85) translate(30px, -40px);
   }
   p {
@@ -100,7 +100,7 @@ export const StarWrap = styled.div`
       font: 22px / normal var(--inter);
       margin: 0 -1px;
       color: #fd3e2f;
-      @media (max-width: ${({ theme }) => theme.media.deskstop1440}) {
+      @media (max-width: ${({ theme }) => theme.media.deskstop2}) {
         font: 20px / normal var(--inter);
       }
     }
@@ -114,7 +114,7 @@ export const List = styled.ul`
   display: flex;
   padding: 35px 10px 25px;
   margin: 0 0 0 45px;
-  @media (max-width: ${({ theme }) => theme.media.deskstop1440}) {
+  @media (max-width: ${({ theme }) => theme.media.deskstop2}) {
     margin: 0;
   }
   li {
@@ -127,7 +127,7 @@ export const List = styled.ul`
     }
     .text {
       font-size: 18px;
-      @media (max-width: ${({ theme }) => theme.media.deskstop1440}) {
+      @media (max-width: ${({ theme }) => theme.media.deskstop2}) {
         font-size: 16px;
         text-align: center;
       }

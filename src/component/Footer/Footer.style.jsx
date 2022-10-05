@@ -1,10 +1,19 @@
 import styled from "styled-components";
 export const FooterWrapper = styled.section`
   padding-bottom: 0;
+  .container {
+    @media (max-width: ${({ theme }) => theme.media.deskstop1}) {
+      max-width: 100%;
+      padding: 0;
+    }
+  }
 `;
 export const GreyWrapper = styled.div`
   background-color: rgb(var(--grey));
-  padding: 105px 150px 90px;
+  padding: 80px 150px;
+  @media (max-width: ${({ theme }) => theme.media.deskstop1}) {
+    padding: 80px 75px 50px;
+  }
   a {
     transition: var(--trans_a3);
     &:hover {
@@ -33,6 +42,11 @@ export const Heading = styled.h6`
     width: 29px;
     background-color: #2166f3;
   }
+  a {
+    all: unset;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
 `;
 export const LinkList = styled.ul`
   li {
@@ -55,7 +69,7 @@ export const FooterLogoWrapper = styled.div`
     width: 50% !important;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     a,
     span {
       display: inline-block;
@@ -63,10 +77,10 @@ export const FooterLogoWrapper = styled.div`
       /* height: 100%; */
       text-align: center;
       position: relative;
+      max-width: 130px;
     }
     img {
       width: 100%;
-      max-width: 130px;
       margin: 0 auto !important;
     }
   }
@@ -76,14 +90,16 @@ export const Clutch = styled.div`
     width: 100% !important;
     max-width: 100%;
     justify-content: center !important;
-    padding: 12px 10px 5px 58px;
+    /* padding: 12px 10px 5px 58px; */
     border-radius: 5px;
   }
   .content {
     display: flex;
   }
 `;
-export const MobileApp = styled.div``;
+export const MobileApp = styled.div`
+  position: relative;
+`;
 export const ItFirms = styled.div``;
 export const GoodFirms = styled.div`
   max-width: 210px;
@@ -121,11 +137,13 @@ export const CompanyInfo = styled.ul`
   }
 `;
 
+export const PartnerWrap = styled.div``;
+export const ContactWrap = styled.div``;
 export const CompanyMail = styled.div`
   font-size: 13px;
   line-height: 22px;
   color: #212529;
-  max-width: 550px;
+  max-width: 800px;
   flex-wrap: wrap;
   margin-bottom: 0;
   display: flex;
@@ -137,13 +155,35 @@ export const CompanyMail = styled.div`
   }
 `;
 export const Mail = styled.div`
-  width: 100%;
+  /* width: 100%; */
+  flex: 0 0 33.33%;
   display: flex;
   flex-wrap: wrap;
-  border-top: 1px solid #dbdbdb;
-  border-bottom: 1px solid #dbdbdb;
+  padding: 0 20px;
+  /* border-top: 1px solid #dbdbdb; */
+  /* border-bottom: 1px solid #dbdbdb; */
   margin: 6px 0 12px;
-  padding: 12px 0;
+  position: relative;
+  /* padding: 12px 0; */
+  &:first-child {
+    padding-left: 0;
+  }
+  &:last-child {
+    padding-right: 0;
+  }
+  &:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    width: 1px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  &:last-child:before {
+    content: none;
+  }
   b {
     width: 100%;
     color: #333;
@@ -172,12 +212,12 @@ export const Mail = styled.div`
   }
 `;
 
-export const DigitalVirtual = styled.div`
-  margin-bottom: 10px;
-  display: flex;
-  & > div {
-    padding: 0;
-    margin: 0;
-    border: 0;
-  }
-`;
+// export const DigitalVirtual = styled.div`
+//   margin-bottom: 10px;
+//   display: flex;
+//   & > div {
+//     padding: 0;
+//     margin: 0;
+//     border: 0;
+//   }
+// `;

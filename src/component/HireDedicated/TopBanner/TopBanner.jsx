@@ -135,7 +135,7 @@ const TopBanner = ({ allData }) => {
                               priority={true}
                             />
                           </div>
-                          <div className="text fw600 black p-0">
+                          <div className="text fw600 black p-0 text-center">
                             {listMenu.title}
                           </div>
                         </span>

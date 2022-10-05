@@ -22,15 +22,15 @@ import {
   Dmca,
   CompanyInfo,
   CompanyMail,
-  DigitalVirtual,
+  PartnerWrap,
+  ContactWrap,
   Mail,
 } from "./Footer.style";
 import {
   footerServicesMenus,
   footerhireDedicatedMenus,
   footerknowMoreMenus,
-  footerMenuDatas
-  
+  footerMenuDatas,
 } from "../../data/FooterMenuData";
 
 function Footer({ footerMenusDatasProps, xl, lg, md, sm }) {
@@ -41,13 +41,13 @@ function Footer({ footerMenusDatasProps, xl, lg, md, sm }) {
           <GreyWrapper>
             <Row className="justify-content-center">
               {/* {footerMenusData.footerMenus.map((item) => ( */}
-                <FooterLinks
-                  xl={2}
-                  lg={3}
-                  md={4}
-                  sm={6}
-                  footerMenusDatasProps={footerMenuDatas}
-                />
+              <FooterLinks
+                xl={2}
+                lg={3}
+                md={4}
+                sm={6}
+                footerMenusDatasProps={footerMenuDatas}
+              />
               {/* // ))} */}
               {/* <FooterLinks
                 xl={2}
@@ -71,12 +71,13 @@ function Footer({ footerMenusDatasProps, xl, lg, md, sm }) {
                 footerMenuDatas={footerknowMoreMenus}
               /> */}
               <Col xl={8} lg={12} md={12} sm={12}>
-                <Wrap>
+                <ContactWrap>
                   <Heading>Contact</Heading>
                   <CompanyInfo>
                     <li>
                       <IoLocationSharp />
-                      IT Park-29/7, Ambad Industrial Area, Maharashtra, India - 422010
+                      IT Park-29/7, Ambad Industrial Area, Maharashtra, India -
+                      422010
                     </li>
                     <li>
                       <IoMdCall />
@@ -116,59 +117,58 @@ function Footer({ footerMenusDatasProps, xl, lg, md, sm }) {
                         </li>
                       </ul>
                     </Mail>
-                    <DigitalVirtual>
-                      <Mail>
-                        <b>Digital Marketing</b>
-                        <li>
-                          <a
-                            href="mailto:sam@eluminoustechnologies.com"
-                            id="mail-contact"
-                            data-ccw="mail-contact"
-                          >
-                            <MdEmail />
-                            sam@eluminoustechnologies.com
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            href="skype:el_sysadmin?chat"
-                            id="skype-contact"
-                            data-ccw="skype-contact"
-                          >
-                            <AiFillSkype />
-                            DM_BDM
-                          </a>
-                        </li>
-                      </Mail>
-                      <Mail>
-                        <b>Virtual Assistance</b>
-                        <li>
-                          <a
-                            href="mailto:sales@eluminousva.com"
-                            id="mail-contact"
-                            data-ccw="mail-contact"
-                          >
-                            <MdEmail />
-                            sales@eluminousva.com{" "}
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            href="skype:cid.d0af7eb429b962d6?chat"
-                            id="skype-contact"
-                            data-ccw="skype-contact"
-                          >
-                            <AiFillSkype />
-                            VA_BDM
-                          </a>
-                        </li>
-                      </Mail>
-                    </DigitalVirtual>
+                    <Mail>
+                      <b>Digital Marketing</b>
+                      <li>
+                        <a
+                          href="mailto:sam@eluminoustechnologies.com"
+                          id="mail-contact"
+                          data-ccw="mail-contact"
+                        >
+                          <MdEmail />
+                          sam@eluminoustechnologies.com
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="skype:el_sysadmin?chat"
+                          id="skype-contact"
+                          data-ccw="skype-contact"
+                        >
+                          <AiFillSkype />
+                          DM_BDM
+                        </a>
+                      </li>
+                    </Mail>
+                    <Mail>
+                      <b>Virtual Assistance</b>
+                      <li>
+                        <a
+                          href="mailto:sales@eluminousva.com"
+                          id="mail-contact"
+                          data-ccw="mail-contact"
+                        >
+                          <MdEmail />
+                          sales@eluminousva.com{" "}
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="skype:cid.d0af7eb429b962d6?chat"
+                          id="skype-contact"
+                          data-ccw="skype-contact"
+                        >
+                          <AiFillSkype />
+                          VA_BDM
+                        </a>
+                      </li>
+                    </Mail>
+                    {/* <DigitalVirtual></DigitalVirtual> */}
                   </CompanyMail>
-                </Wrap>
+                </ContactWrap>
               </Col>
               <Col xl={4} lg={12} md={12} sm={12}>
-                <Wrap>
+                <PartnerWrap>
                   <Heading>Our Esteemed Partners</Heading>
                   <FooterLogoWrapper className="footer-logos-wrapper">
                     <Clutch>
@@ -242,7 +242,7 @@ function Footer({ footerMenusDatasProps, xl, lg, md, sm }) {
                         />
                       </span>
                     </Gartner>
-                    <Dmca>
+                    {/* <Dmca>
                       <a
                         href="//www.dmca.com/Protection/Status.aspx?ID=1e206da3-3a6c-47fe-9d2b-8bbff60cd8b7"
                         title="DMCA.com Protection Status"
@@ -259,9 +259,9 @@ function Footer({ footerMenusDatasProps, xl, lg, md, sm }) {
                           // layout="fill"
                         />
                       </a>
-                    </Dmca>
+                    </Dmca> */}
                   </FooterLogoWrapper>
-                </Wrap>
+                </PartnerWrap>
               </Col>
             </Row>
           </GreyWrapper>

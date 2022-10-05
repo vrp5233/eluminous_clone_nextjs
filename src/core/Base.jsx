@@ -5,9 +5,9 @@ import Footer from "../component/Footer/Footer";
 const Base = ({ children }) => {
   return (
       <>
-        <Navigation />
+        {/* <Navigation /> */}
         {children}
-        <Footer />
+        {/* <Footer /> */}
       </>
   );
 };

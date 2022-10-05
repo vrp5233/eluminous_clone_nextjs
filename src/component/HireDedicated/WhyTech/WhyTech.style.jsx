@@ -1,9 +1,20 @@
 import styled, { css, keyframes } from "styled-components";
 
-export const WhyTechWrapper = styled.section``;
+export const WhyTechWrapper = styled.section`
+  .container {
+    @media (max-width: ${({ theme }) => theme.media.deskstop1}) {
+      max-width: 100%;
+      padding: 0;
+    }
+  }
+`;
 export const GreyWrapper = styled.div`
   background-color: rgb(var(--grey));
   padding: 105px 150px 90px;
+  @media (max-width: ${({ theme }) => theme.media.deskstop1}) {
+    max-width: 100%;
+    padding: 80px 75px;
+  }
 `;
 export const TextWrapper = styled.div`
   padding: 0 0 0 110px;

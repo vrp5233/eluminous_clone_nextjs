@@ -10,7 +10,7 @@ export const banner = {
   paragraph:
     "Hire angular developers to have seamless visualization across all devices. Our angular developers build high-performance and scalable apps which enhance your productivity by 70%.",
   btnLink: "#hireDedicatedForm",
-  btnText: "Hire Angular Developer",
+  btnText: "Get Rate Card in My Inbox",
   imgSrc: "/images/HireDedicated/hire-angular-developers.png",
   imgAlt: "Hire Angular Developers",
   clutchReviewText:

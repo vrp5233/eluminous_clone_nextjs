@@ -1,7 +1,7 @@
 const GlobalStyleThemes = {
   media: {
-    deskstop1600: "1600px",
-    deskstop1440: "1440px",
+    deskstop1: "1700px",
+    deskstop2: "1440px",
     ipad1199: "1199px",
     ipad1024: "1024px",
     ipad991: "991px",

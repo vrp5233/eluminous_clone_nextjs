@@ -14,7 +14,7 @@ const GlobalStyles = createGlobalStyle`
   --inter: "Inter", sans-serif;
   --trans_a3: all 0.3s;
 
-  --mediaMobile767: 767px;
+  /* --mediaMobile767: 767px; */
 }
 
 *,
@@ -146,6 +146,11 @@ section {
 .revelBlueBg {
   background-color: rgba(var(--revelBlue)) !important;
 }
+@media (max-width: 1700px) {
+    .container {
+      max-width: calc(1500px - 30px);
+    }
+}
 `;
 /* Color Css End */
 export const BtnWrap = styled.div`
@@ -196,7 +201,6 @@ export const BtnWrap = styled.div`
       `}
   }
 `;
-
 export const HireTitle = styled.h2`
   font: 700 46px / normal var(--inter);
   margin-bottom: 30px;

@@ -1,6 +1,12 @@
 import styled from "styled-components";
 export const BottomFooter = styled.div`
-  padding: 20px 0;
+  .container {
+    padding: 20px 150px;
+    @media (max-width: ${({ theme }) => theme.media.deskstop1}) {
+      max-width: 100%;
+      padding: 20px 75px;
+    }
+  }
 `;
 export const FooterSocialLinks = styled.ul`
   display: flex;

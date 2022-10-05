@@ -12,7 +12,15 @@ function FooterLinks({ footerMenusDatasProps, xl, lg, md, sm }) {
           <>
             <Col xl={xl} lg={lg} md={md} sm={sm}>
               <Wrap>
-                <Heading>{footerMenu.title}</Heading>
+                {footerMenu.path === "" ? (
+                  <Heading>{footerMenu.title}</Heading>
+                ) : (
+                  <Heading>
+                    <Link href={footerMenu.path}>
+                      <a>{footerMenu.title}</a>
+                    </Link>
+                  </Heading>
+                )}
                 <LinkList>
                   {footerMenu.items.map((menu, path) => {
                     return (

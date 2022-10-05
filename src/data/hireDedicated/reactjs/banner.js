@@ -10,7 +10,7 @@ export const banner = {
   paragraph:
     "Hire ReactJS developers trusted by 97% of CTOs. eLuminous Technologies offer flexible hiring models to help you in web and mobile.",
   btnLink: "#hireDedicatedForm",
-  btnText: "Hire ReactJS Developer",
+  btnText: "Get Rate Card in My Inbox",
   imgSrc: "/images/HireDedicated/hire-react-developers.png",
   imgAlt: "Hire ReactJS Developers",
   imgLogo: "/images/HireDedicated/react-img.png",

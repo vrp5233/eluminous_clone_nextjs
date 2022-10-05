@@ -10,6 +10,9 @@ export const BlueWrapper = styled.div`
   .carousel-root {
     padding: 80px 220px;
     background: linear-gradient(45deg, #0b2757 0, #01317b 42%, #01317b 100%);
+    @media (max-width: ${({ theme }) => theme.media.deskstop1}) {
+      padding: 80px 110px;
+    }
     .carousel-slider {
       display: flex;
       flex-direction: column-reverse;
@@ -46,10 +49,10 @@ export const Box = styled.div`
 `;
 export const Left = styled.div`
   color: rgb(var(--white));
-  max-width: calc(74% - 0px);
+  max-width: calc(75% - 70px);
   width: 100%;
   flex: 0 0 auto;
-  margin-right: 0;
+  margin-right: 30px;
   border-right: 1px solid rgba(var(--white), 0.32);
   padding-right: 70px;
   text-align: left;
@@ -122,7 +125,7 @@ export const AvtarDetails = styled.div`
   }
 `;
 export const Right = styled.div`
-  flex: 0 0 25%;
+  flex: 0 0 calc(25% - 75px);
   width: auto;
   padding-left: 75px;
   margin-left: auto;
